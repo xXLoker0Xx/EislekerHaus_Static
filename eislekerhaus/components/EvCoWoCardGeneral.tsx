@@ -2,19 +2,21 @@ import * as React from "react"
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from "./ui/button";
-import { CalendarIcon, MapPinIcon, ClockIcon } from 'lucide-react';
+import { CalendarIcon, MapPinIcon } from 'lucide-react';
 
 import { Content } from "@/utilities/interfacesUtils";
 
 
-export const EvCoCardGeneral: React.FC<Content> = ({
+export const EvCoWoCardGeneral: React.FC<Content> = ({
     title,
-    description,
-    date,
-    time,
-    location,
-    registerLink,
+    subtitle,
     SectionType,
+    price,
+    description,
+    Photo,
+    location,
+    BuyingLink,
+    Descriptionlink,
 }) => {
     return (
         <Card className="bg-white bg-opacity-80 shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -34,16 +36,9 @@ export const EvCoCardGeneral: React.FC<Content> = ({
             <CardContent>
                 <div className="my-2 flex items-center text-base text-jul-red">
                     <CalendarIcon className="w-4 h-4 mr-1" />
-                    <span>{date}</span>
                 </div>
                 <p className="text-lg text-gray-600 mb-6">{description}</p>
                 <div className="space-y-2 mb-6">
-                    {time && (
-                        <div className="flex items-center text-sm text-jul-green">
-                            <ClockIcon className="w-4 h-4 mr-2" />
-                            <span>{time}</span>
-                        </div>
-                    )}
                     {location && (
                         <div className="flex items-center text-sm text-jul-green">
                             <MapPinIcon className="w-4 h-4 mr-2" />
@@ -51,12 +46,12 @@ export const EvCoCardGeneral: React.FC<Content> = ({
                         </div>
                     )}
                 </div>
-                {registerLink && (
+                {Descriptionlink && (
                     <Button
                         className="bg-jul-red text-white hover:bg-jul-red/90"
-                        onClick={() => window.open(registerLink, '_blank')}
+                        onClick={() => window.open(Descriptionlink, '_blank')}
                     >
-                        Register
+                        More Info
                     </Button>
                 )}
             </CardContent>

@@ -5,7 +5,7 @@ import { EvCoWogenPage } from '@/components/EvCoWogenPage';
 
 
 const EventsPage = () => {
-    const pagename = "Workshops"
+    const pagename = "Courses"
     const courses = [
         {
             title: "",

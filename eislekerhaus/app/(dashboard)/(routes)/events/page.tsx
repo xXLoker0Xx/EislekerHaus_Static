@@ -1,14 +1,27 @@
 "use client";
 
 import React from 'react';
-import { EvCoPage } from '@/components/EvCoPage';
+import { EvCoWoPage } from '@/components/EvCoWogenPage';
+
 
 const EventsPage = () => {
     const pagename = "Events"
-    const sectionName = "Upcoming Events"
+    const courses = [
+        {
+            title: "",
+            subtitle: "",
+            SectionType: "",
+            price: 0,
+            description: "",
+            Photo: undefined,
+            location: "",
+            BuyingLink: "",
+            Descriptionlink: "",
+        }
+    ];
 
     return (
-        <EvCoPage pagename={pagename} sectionName={sectionName} />
+        <EvCoWoPage pagename={pagename} courses={courses} />
     );
 };
 

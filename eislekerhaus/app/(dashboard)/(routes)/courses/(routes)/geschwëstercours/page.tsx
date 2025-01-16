@@ -1,10 +1,10 @@
 'use client'
 
 import React from 'react';
-import { EvCoPage } from '@/components/EvCoPage';
+import { EvCoPage } from '@/components/EvCoWogenPage';
 
-const GrandParentsPage = () => {
-    const pagename = "Grand Parents"
+const ParentsKidsPage = () => {
+    const pagename = "Parents & Kids"
     const sectionName = "Courses"
 
     return (
@@ -12,4 +12,4 @@ const GrandParentsPage = () => {
     );
 };
 
-export default GrandParentsPage;
+export default ParentsKidsPage;

@@ -1,7 +1,11 @@
 "use client";
 
+import { BlogPost } from '@/components/BlogPost';
+import CustomBackground from '@/components/CustomBack';
+import FloatingElements from '@/components/FloatingElements';
+import { TitleMain } from '@/components/TitleMain';
 import React from 'react';
-import { BlogPageGen } from '@/components/BlogPageGen';
+
 
 const BlogPage = () => {
     const pagename = "Blog"
@@ -33,7 +37,26 @@ const BlogPage = () => {
     ];
 
     return (
-        <BlogPageGen pagename={pagename} posts={blogPosts} />
+        <div className="min-h-screen bg-jul-white p-8 relative overflow-hidden -mb-12">
+            {/* Asymmetric background shapes */}
+            <CustomBackground />
+
+            <div className="lg:tracking-widest lg:pl-20 lg:pr-20 mx-auto relative z-10 mt-20 lg:mt-0">
+                <TitleMain title={pagename} />
+
+                <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-8 mb-12">
+                    {blogPosts.map((post) => (
+                        <div key={post.title}>
+                            <BlogPost {...post} />
+                        </div>
+                    ))}
+                </div>
+
+            </div>
+
+            {/* Floating elements */}
+            <FloatingElements />
+        </div>
     );
 };
 

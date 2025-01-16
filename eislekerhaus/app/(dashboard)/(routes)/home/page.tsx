@@ -8,7 +8,7 @@ import { loadContent } from "@/utilities/DBloadUtils";
 import FloatingElements from "@/components/FloatingElements";
 import CustomBackground from "@/components/CustomBack";
 import { TitleMain } from "@/components/TitleMain";
-import { EvCoCardGeneral } from "@/components/EvCoCardGeneral";
+import { EvCoCardGeneral } from "@/components/EvCoWoCardGeneral";
 import { HomeCard } from "@/components/HomeCard";
 
 // PAGE CODE

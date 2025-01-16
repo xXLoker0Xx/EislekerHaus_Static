@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
-import { ItfcHomeCard } from "@/utilities/interfacesUtils";
 import { Button } from "./ui/button";
-import { byteArrayToBase64 } from "@/utilities/GeneralFuncions";
 import Image from 'next/image';
-
 
 export const HomeCard: React.FC<ItfcHomeCard> = ({
     type,

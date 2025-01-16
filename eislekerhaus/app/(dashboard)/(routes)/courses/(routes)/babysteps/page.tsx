@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import { EvCoPage } from '@/components/EvCoPage';
+import { EvCoPage } from '@/components/EvCoWogenPage';
 
 const KidsPage = () => {
     const pagename = "Kids"

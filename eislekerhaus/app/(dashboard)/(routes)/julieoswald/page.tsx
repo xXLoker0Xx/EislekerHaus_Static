@@ -12,7 +12,7 @@ const WhoIsJuliePage: React.FC = () => {
         <div className="min-h-screen bg-jul-white p-8 relative overflow-hidden -mb-12">
             <CustomBackground />
             <div className="lg:pl-20 lg:pr-20 mx-auto relative z-10 mt-20 lg:mt-0">
-                <TitleMain title={"Hola"} />
+                <TitleMain title={"Who is Julie?"} />
                 <div className="mb-12 bg-white bg-opacity-80 p-6 rounded-lg shadow-lg">
                     <Image
                         src={"/Main_Julie.jpg"}

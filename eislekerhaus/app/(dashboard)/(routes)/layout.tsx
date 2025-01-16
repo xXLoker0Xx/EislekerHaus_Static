@@ -16,7 +16,9 @@ const DashboardLayout = async ({ children }: {
                     <div className="w-full fixed h-20 z-20">
                         <Navbar />
                     </div>
-                    {children}
+                    <div className="">
+                        {children}
+                    </div>
                     <Footer />
                 </div>
 
