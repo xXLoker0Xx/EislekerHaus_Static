@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { EvCoWoPage } from '@/components/EvCoWogenPage';
+import { EvCoWogenPage } from '@/components/EvCoWogenPage';
 
 
 const EventsPage = () => {
@@ -21,7 +21,7 @@ const EventsPage = () => {
     ];
 
     return (
-        <EvCoWoPage pagename={pagename} courses={courses} />
+        <EvCoWogenPage pagename={pagename} courses={courses} />
     );
 };
 

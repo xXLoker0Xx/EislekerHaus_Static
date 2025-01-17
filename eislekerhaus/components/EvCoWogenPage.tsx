@@ -22,7 +22,7 @@ export const EvCoWogenPage: React.FC<EvCoPageProp> = ({ pagename, courses }) => 
             <div className="lg:tracking-widest lg:pl-20 lg:pr-20 mx-auto relative z-10 mt-20 lg:mt-0">
                 <TitleMain title={pagename} />
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 mb-12">
                     {courses.map((course) => (
                         <div key={course.title}>
                             <EvCoWoCardGeneral {...course} />

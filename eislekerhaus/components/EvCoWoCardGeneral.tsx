@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from "./ui/button";
-import { CalendarIcon, MapPinIcon } from 'lucide-react';
+import { LocateFixed, MapPinIcon } from 'lucide-react';
 
 import { Content } from "@/utilities/interfacesUtils";
 
@@ -10,7 +10,6 @@ import { Content } from "@/utilities/interfacesUtils";
 export const EvCoWoCardGeneral: React.FC<Content> = ({
     title,
     subtitle,
-    SectionType,
     price,
     description,
     Photo,
@@ -24,36 +23,43 @@ export const EvCoWoCardGeneral: React.FC<Content> = ({
                 <CardTitle className="text-2xl text-jul-green">
                     <div className="flex flex-wrap justify-between items-center">
                         <h1 className="font-bold">{title}</h1>
-                        {SectionType && (
-                            <div className="my-2 flex items-center text-base text-jul-red">
-                                <CalendarIcon className="w-4 h-4 mr-1" />
-                                <span>{SectionType}</span>
-                            </div>
-                        )}
+                    </div>
+                    <div className="flex items-center text-base text-jul-red my-2">
+                        <span>Präis: {price} €</span>
                     </div>
                 </CardTitle>
             </CardHeader>
             <CardContent>
-                <div className="my-2 flex items-center text-base text-jul-red">
-                    <CalendarIcon className="w-4 h-4 mr-1" />
-                </div>
                 <p className="text-lg text-gray-600 mb-6">{description}</p>
                 <div className="space-y-2 mb-6">
-                    {location && (
-                        <div className="flex items-center text-sm text-jul-green">
-                            <MapPinIcon className="w-4 h-4 mr-2" />
-                            <span>{location}</span>
-                        </div>
+                    <div className="flex items-center text-sm text-jul-green">
+                        <MapPinIcon className="w-4 h-4 mr-2" />
+                        <span>{location}</span>
+                    </div>
+                    <div className="flex items-center text-base text-jul-red my-2">
+                        <LocateFixed className="w-4 h-4 mr-1" />
+                        <span>{subtitle}</span>
+                    </div>
+
+                </div>
+                <div className="flex flex-row items-center justify-between">
+                    {Descriptionlink && (
+                        <Button
+                            className="bg-jul-red text-white hover:bg-jul-red/90"
+                            onClick={() => window.open(Descriptionlink, '_blank')}
+                        >
+                            Méi Info
+                        </Button>
+                    )}
+                    {BuyingLink && (
+                        <Button
+                            className="bg-jul-red text-white hover:bg-jul-red/90"
+                            onClick={() => window.open(BuyingLink, '_blank')}
+                        >
+                            Mell mech un!
+                        </Button>
                     )}
                 </div>
-                {Descriptionlink && (
-                    <Button
-                        className="bg-jul-red text-white hover:bg-jul-red/90"
-                        onClick={() => window.open(Descriptionlink, '_blank')}
-                    >
-                        More Info
-                    </Button>
-                )}
             </CardContent>
         </Card>
     );

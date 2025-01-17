@@ -34,7 +34,7 @@ const routes = [
             },
             {
                 title: "Geschwëstercours",
-                href: "/courses/geschwëstercours",
+                href: "/courses/geschwestercours",
             },
             {
                 title: "MiniSigns",
@@ -62,19 +62,19 @@ const routes = [
         courses: [
             {
                 title: "Mëllech",
-                href: "/courses/mellech",
+                href: "/workshops/mellech",
             },
             {
                 title: "Beikost",
-                href: "/courses/beikost",
+                href: "/workshops/beikost",
             },
             {
                 title: "Schlofen",
-                href: "/courses/schlofen",
+                href: "/workshops/schlofen",
             },
             {
                 title: "Einfach Eltern",
-                href: "/courses/einfacheltern",
+                href: "/workshops/einfacheltern",
             },
         ]
     },

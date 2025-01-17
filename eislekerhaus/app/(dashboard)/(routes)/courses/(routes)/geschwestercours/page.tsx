@@ -5,8 +5,8 @@ import FloatingElements from '@/components/FloatingElements';
 import { TitleMain } from '@/components/TitleMain';
 import React from 'react';
 
-const babysteps = () => {
-    const pagename = "Baby Steps";
+const geschwestercours = () => {
+    const pagename = "Geschwestercours";
 
     return (
         <div className="bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
@@ -53,4 +53,4 @@ const babysteps = () => {
     );
 };
 
-export default babysteps;
+export default geschwestercours;
