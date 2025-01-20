@@ -15,11 +15,15 @@ const monserrat = Montserrat({ weight: "600", subsets: ["latin"] });
 
 const routes = [
     {
-        label: "Courses",
+        label: "Coursen",
         icon: BookA,
         href: "/courses",
         color: "text-jul-green",
         courses: [
+            {
+                title: "All d'Coursen",
+                href: "/courses",
+            },
             {
                 title: "BellyBasics - Hypnobirthing",
                 href: "/courses/bellybasics-hypnobirthing",
@@ -61,6 +65,10 @@ const routes = [
         color: "text-jul-green",
         courses: [
             {
+                title: "All d'Workshops",
+                href: "/workshops",
+            },
+            {
                 title: "Mëllech",
                 href: "/workshops/mellech",
             },
@@ -79,19 +87,19 @@ const routes = [
         ]
     },
     {
-        label: "Who is Julie",
+        label: "Iwwert Julie",
         icon: PersonStanding,
         href: "/julieoswald",
         color: "text-jul-green"
     },
+    // {
+    //     label: "Previous Work",
+    //     icon: Layers,
+    //     href: "/previouswork",
+    //     color: "text-jul-green"
+    // },
     {
-        label: "Previous Work",
-        icon: Layers,
-        href: "/previouswork",
-        color: "text-jul-green"
-    },
-    {
-        label: "Events",
+        label: "Evenementer",
         icon: TicketCheck,
         href: "/events",
         color: "text-jul-green"
@@ -179,8 +187,7 @@ const CollapsibleCategory = ({ props, label, icon, href, color, courses,
         <Collapsible open={isOpen} onOpenChange={setIsOpen} className="">
             <CollapsibleTrigger asChild className="w-full">
                 {href == "/courses" || href == "/workshops" ? (
-                    <Link
-                        href={href}
+                    <div
                         key={href}
                         className={cn(
                             "text-lg group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-jul-red hover:bg-jul-red/10 rounded-lg transition",
@@ -198,7 +205,7 @@ const CollapsibleCategory = ({ props, label, icon, href, color, courses,
                         <div className="flex items-center">
                             <ChevronsUpDown className="h-4 w-4" />
                         </div>
-                    </Link>
+                    </div>
                 ) : (
                     <SheetCloseWrapper {...shetCloseWrapperProps} key={label}>
                         <Link
