@@ -84,7 +84,7 @@ const babyboogie = () => {
 
                         <div>
                             <Button
-                                className="bg-jul-red text-white hover:bg-jul-red/90"
+                                className="bg-jul-red text-white hover:bg-jul-red/90 xl:hidden"
                                 onClick={() => window.open("https://example.com", '_blank')}
                             >
                                 Mell mech un!
