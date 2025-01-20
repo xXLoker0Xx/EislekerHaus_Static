@@ -26,4 +26,4 @@ jobs:
           cd /var/www/EislekerHaus_Static
           git pull origin main
           git status
-          npm install --only=prod
+          npm install
