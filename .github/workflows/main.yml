@@ -27,3 +27,22 @@ jobs:
           git pull origin main
           git status
           npm install
+
+          # Install Node.js if npm is not found
+          if ! command -v npm &> /dev/null; then
+            curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+            sudo apt-get install -y nodejs
+          fi
+
+          # Install dependencies and build the app
+          npm install
+          npm run build
+
+          # Install pm2 if it is not found
+          if ! command -v pm2 &> /dev/null; then
+            npm install -g pm2
+          fi
+
+          # Restart the app with pm2 using the production start script
+          pm2 start npm --name "eislekerhaus" -- run dev
+          pm2 save
