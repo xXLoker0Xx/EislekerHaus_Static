@@ -87,7 +87,7 @@ const routes = [
         ]
     },
     {
-        label: "Iwwert Julie",
+        label: "Iwwert Me",
         icon: PersonStanding,
         href: "/julieoswald",
         color: "text-jul-green"
@@ -132,21 +132,37 @@ export const Sidebar: React.FC<SidebarProps> = (props) => {
         <div className="space-y-4 py-4 flex flex-col h-full bg-jul-white">
             <div className="px-3 py-2 flex-1 overflow-y-auto max-h-screen scrollbar-thin scrollbar-thumb-jul-green scrollbar-track-jul-white">
 
-                <SheetCloseWrapper {...shetCloseWrapperProps}>
+                {SheetCloseWrapper === React.Fragment ? (
                     <Link href="/home" className="flex items-center pl-3 mb-10">
-                        <div className="relative w-16 h-16 mr-4"> {/* Ensure this has 'relative' */}
+                        <div className="relative w-16 h-16 mr-4">
                             <Image
                                 fill
                                 alt="Logo"
                                 src="/eisleken-logo.PNG"
-                                style={{ objectFit: 'cover' }} // Optional: maintain aspect ratio
+                                style={{ objectFit: 'cover' }}
                             />
                         </div>
                         <h1 className={cn("text-2xl font-bold text-jul-red", monserrat.className)}>
                             Eisleker Haus
                         </h1>
                     </Link>
-                </SheetCloseWrapper>
+                ) : (
+                    <SheetCloseWrapper {...shetCloseWrapperProps}>
+                        <Link href="/home" className="flex items-center pl-3 mb-10">
+                            <div className="relative w-16 h-16 mr-4">
+                                <Image
+                                    fill
+                                    alt="Logo"
+                                    src="/eisleken-logo.PNG"
+                                    style={{ objectFit: 'cover' }}
+                                />
+                            </div>
+                            <h1 className={cn("text-2xl font-bold text-jul-red", monserrat.className)}>
+                                Eisleker Haus
+                            </h1>
+                        </Link>
+                    </SheetCloseWrapper>
+                )}
                 <div className="space-y-1">
                     {routes.map((route, index) => (
                         <CollapsibleCategory key={index} {...route} props={props} />
@@ -170,23 +186,20 @@ interface CollapsibleCategoryProp {
     courses?: { title: string, href: string }[]
 }
 
-const CollapsibleCategory = ({ props, label, icon, href, color, courses,
-
-}: CollapsibleCategoryProp) => {
-    const pathname = usePathname()
+const CollapsibleCategory = ({ props, label, icon, href, color, courses }: CollapsibleCategoryProp) => {
+    const pathname = usePathname();
 
     const [SheetCloseWrapper, shetCloseWrapperProps] = props.withSheetClose
         ? [SheetClose, { asChild: true }]
         : [React.Fragment, {}];
 
     const isCoursePath = pathname.startsWith(href);
-
     const [isOpen, setIsOpen] = useState(isCoursePath);
 
     return (
         <Collapsible open={isOpen} onOpenChange={setIsOpen} className="">
             <CollapsibleTrigger asChild className="w-full">
-                {href == "/courses" || href == "/workshops" ? (
+                {href === "/courses" || href === "/workshops" ? (
                     <div
                         key={href}
                         className={cn(
@@ -198,32 +211,47 @@ const CollapsibleCategory = ({ props, label, icon, href, color, courses,
                             className: cn("h-7 w-7 mr-3", pathname === href ? "text-jul-red" : color),
                         })}
 
-                        <div className="flex items-center flex-1">
-                            {label}
-                        </div>
+                        <div className="flex items-center flex-1">{label}</div>
 
                         <div className="flex items-center">
                             <ChevronsUpDown className="h-4 w-4" />
                         </div>
                     </div>
                 ) : (
-                    <SheetCloseWrapper {...shetCloseWrapperProps} key={label}>
+                    SheetCloseWrapper === React.Fragment ? (
                         <Link
                             href={href}
                             key={href}
-                            className={cn("text-lg group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-jul-red hover:bg-jul-red/10 rounded-lg transition",
+                            className={cn(
+                                "text-lg group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-jul-red hover:bg-jul-red/10 rounded-lg transition",
                                 pathname === href ? "text-jul-red bg-jul-red/10" : "text-zinc-600"
                             )}
                         >
-                            {React.createElement(icon, { className: cn("h-7 w-7 mr-3", pathname === href ? "text-jul-red" : color) })}
+                            {React.createElement(icon, {
+                                className: cn("h-7 w-7 mr-3", pathname === href ? "text-jul-red" : color),
+                            })}
 
-                            <div className="flex items-center flex-1">
-                                {label}
-                            </div>
+                            <div className="flex items-center flex-1">{label}</div>
                         </Link>
-                    </SheetCloseWrapper>
-                )
-                }
+                    ) : (
+                        <SheetCloseWrapper {...shetCloseWrapperProps} key={label}>
+                            <Link
+                                href={href}
+                                key={href}
+                                className={cn(
+                                    "text-lg group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-jul-red hover:bg-jul-red/10 rounded-lg transition",
+                                    pathname === href ? "text-jul-red bg-jul-red/10" : "text-zinc-600"
+                                )}
+                            >
+                                {React.createElement(icon, {
+                                    className: cn("h-7 w-7 mr-3", pathname === href ? "text-jul-red" : color),
+                                })}
+
+                                <div className="flex items-center flex-1">{label}</div>
+                            </Link>
+                        </SheetCloseWrapper>
+                    )
+                )}
             </CollapsibleTrigger>
             <CollapsibleContent className="mt-2">
                 {courses?.map((course, index) => (
@@ -233,6 +261,7 @@ const CollapsibleCategory = ({ props, label, icon, href, color, courses,
         </Collapsible>
     );
 };
+
 
 interface CourseLinkProps {
     props: SidebarProps,
@@ -249,20 +278,33 @@ const CourseLink = ({
         ? [SheetClose, { asChild: true }]
         : [React.Fragment, {}];
 
-    const pathname = usePathname()
+    const pathname = usePathname();
+
     return (
-        <SheetCloseWrapper {...shetCloseWrapperProps} key={title}>
+        SheetCloseWrapper === React.Fragment ? (
             <Link
                 href={href}
                 key={href}
-                className={cn("text-lg group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-jul-red hover:bg-jul-red/10 rounded-lg transition",
+                className={cn(
+                    "text-lg group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-jul-red hover:bg-jul-red/10 rounded-lg transition",
                     pathname === href ? "text-jul-red bg-jul-red/10" : "text-zinc-600"
                 )}
             >
-                <div className="items-center pl-6">
-                    {title}
-                </div>
+                <div className="items-center pl-6">{title}</div>
             </Link>
-        </SheetCloseWrapper>
-    )
+        ) : (
+            <SheetCloseWrapper {...shetCloseWrapperProps}>
+                <Link
+                    href={href}
+                    key={href}
+                    className={cn(
+                        "text-lg group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-jul-red hover:bg-jul-red/10 rounded-lg transition",
+                        pathname === href ? "text-jul-red bg-jul-red/10" : "text-zinc-600"
+                    )}
+                >
+                    <div className="items-center pl-6">{title}</div>
+                </Link>
+            </SheetCloseWrapper>
+        )
+    );
 };

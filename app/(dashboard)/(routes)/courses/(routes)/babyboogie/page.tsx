@@ -19,35 +19,16 @@ const babyboogie = () => {
             <div className="lg:tracking-widest lg:pl-20 lg:pr-20 mx-auto relative z-10 mt-20 lg:mt-0">
                 <TitleMain title={pagename} />
 
-                {/* Imagen */}
-                <div className="bg-jul-white p-4 rounded-lg shadow-md flex flex-col align-middle xl:flex-row gap-6 mb-4">
-                    {/* Imagen */}
-                    <div className="flex-shrink-0 xl:w-1/2">
+                <div className=" flex flex-col align-middle xl:flex-row gap-6 mb-4">
+                    <div className="flex w-full">
                         <Image
                             src="/BabyBoogie.png"
                             alt="Baby Boogie"
-                            width={900}
+                            width={500}
                             height={500}
-                            className="rounded-lg shadow-md"
+                            className="rounded-lg shadow-md max-h-[480px] w-full object-cover"
                         />
                     </div>
-
-                    {/* Textos visibles solo en lg */}
-                    <div className="align-middle justify-between hidden xl:flex xl:flex-col">
-                        <div>
-                            <h2 className="text-jul-red text-2xl font-bold">De Cours vun 0 - 36 Méint</h2>
-                            <p className="text-jul-purple text-lg font-semibold">ERLIEFT MUSIK ZESUMMEN!</p>
-                        </div>
-                        <div>
-                            <Button
-                                className="bg-jul-red text-white hover:bg-jul-red/90"
-                                onClick={() => window.open("https://example.com", '_blank')}
-                            >
-                                Mell mech un!
-                            </Button>
-                        </div>
-                    </div>
-
                 </div>
 
                 {/* Contenedor principal en flex */}
@@ -55,7 +36,7 @@ const babyboogie = () => {
 
                     {/* Textos */}
                     <div className="flex-grow space-y-4">
-                        <div className="flex-grow space-y-4 xl:hidden">
+                        <div className="flex-grow space-y-4">
                             <h2 className="text-jul-red text-2xl font-bold">De Cours vun 0 - 36 Méint</h2>
                             <p className="text-jul-purple text-lg font-semibold">ERLIEFT MUSIK ZESUMMEN!</p>
                         </div>
@@ -84,7 +65,7 @@ const babyboogie = () => {
 
                         <div>
                             <Button
-                                className="bg-jul-red text-white hover:bg-jul-red/90 xl:hidden"
+                                className="bg-jul-red text-white hover:bg-jul-red/90"
                                 onClick={() => window.open("https://example.com", '_blank')}
                             >
                                 Mell mech un!
