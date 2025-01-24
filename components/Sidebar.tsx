@@ -87,7 +87,7 @@ const routes = [
         ]
     },
     {
-        label: "Iwwert Me",
+        label: "Iwwert Mech",
         icon: PersonStanding,
         href: "/julieoswald",
         color: "text-jul-green"
@@ -102,6 +102,12 @@ const routes = [
         label: "Evenementer",
         icon: TicketCheck,
         href: "/events",
+        color: "text-jul-green"
+    },
+    {
+        label: "Mini-Evenementer",
+        icon: TicketCheck,
+        href: "/minievents",
         color: "text-jul-green"
     },
     // {
