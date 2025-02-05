@@ -29,7 +29,6 @@ jobs:
           cd /var/www/EislekerHaus_Static/
           git pull origin main
           git status
-          npm install
 
           # Install Node.js if npm is not found
           if ! command -v npm &> /dev/null; then
@@ -47,7 +46,5 @@ jobs:
           fi
 
           # Restart the app with pm2 using the production start script
-          pm2 delete 0
-          pm2 save
-          pm2 start npm --name "eislekerhaus" -- run dev
+          pm2 restart eislekerhaus --update-env
           pm2 save
