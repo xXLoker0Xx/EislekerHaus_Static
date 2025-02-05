@@ -23,6 +23,9 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
+          # Aplicar actualizaciones de seguridad
+          sudo apt update && sudo apt upgrade -y
+
           cd /var/www/EislekerHaus_Static/
           git pull origin main
           git status
@@ -35,8 +38,8 @@ jobs:
           fi
 
           # Install dependencies and build the app
-          npm install
-          npm run build
+          # npm install
+          # npm run build
 
           # Install pm2 if it is not found
           if ! command -v pm2 &> /dev/null; then
@@ -44,5 +47,7 @@ jobs:
           fi
 
           # Restart the app with pm2 using the production start script
+          pm2 stop 0
+          pm2 save
           pm2 start npm --name "eislekerhaus" -- run dev
           pm2 save

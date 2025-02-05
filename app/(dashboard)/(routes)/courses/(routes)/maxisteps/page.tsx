@@ -20,13 +20,13 @@ const maxistepsCourse = () => {
                 <TitleMain title={pagename} />
 
                 <div className=" flex flex-col align-middle xl:flex-row gap-6 mb-4">
-                    <div className="flex w-full">
+                    <div className="flex flex-row w-full justify-center">
                         <Image
                             src="/maxi-steps.png"
-                            alt="MaxiSteps"
+                            alt="maxi steps"
                             width={500}
                             height={500}
-                            className="rounded-lg shadow-md max-h-[480px] w-full object-cover"
+                            className="flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
                         />
                     </div>
                 </div>

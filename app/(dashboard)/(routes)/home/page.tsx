@@ -31,13 +31,13 @@ const HomePage: React.FC = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex w-full">
+                <div className="flex flex-row w-full justify-center">
                     <Image
-                        src="/House.jpg"
+                        src="/Cabane 1.jpg"
                         alt="house"
                         width={500}
                         height={500}
-                        className="rounded-lg shadow-md max-h-[480px] w-full object-cover"
+                        className="flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
                     />
                 </div>
                 <div className="bg-jul-white p-4 rounded-lg shadow-md flex flex-col  gap-6 mb-4">
@@ -58,6 +58,22 @@ const HomePage: React.FC = () => {
                     </div>
                 </div>
 
+                <div className="flex flex-row w-full justify-center xl:justify-between flex-wrap px-4">
+                    <Image
+                        src="/Cabane 2.jpg"
+                        alt="house"
+                        width={500}
+                        height={500}
+                        className="flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
+                    />
+                    <Image
+                        src="/Cabane 3.jpg"
+                        alt="house"
+                        width={500}
+                        height={500}
+                        className="hidden xl:flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
+                    />
+                </div>
 
                 {/* About Julie */}
                 <section className="bg-jul-white p-4 rounded-lg shadow-md space-y-2 flex flex-col h-full justify-between items-center">
@@ -80,31 +96,31 @@ const HomePage: React.FC = () => {
                 <section className="bg-jul-white p-4 rounded-lg shadow-md text-center">
                     <h2 className="text-jul-red text-2xl font-bold">Entdeckt eis Offeren</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
-                        <div className="bg-jul-purple p-4 rounded-lg shadow-md text-white text-center flex flex-col h-full justify-between items-center">
-                            <h3 className="text-xl font-bold">Coursen</h3>
+                        <div className="bg-jul-white border-2 border-jul-green p-4 rounded-lg text-black text-center flex flex-col h-full justify-between items-center">
+                            <h3 className="text-xl font-bold text-jul-green">Coursen</h3>
                             <p>Flott Aktivitéiten fir Elteren a Kanner vun all Alter.</p>
                             <Button
-                                className="mt-4 bg-white text-jul-purple px-4 py-2 rounded-lg"
+                                className="mt-4 bg-jul-green text-white px-4 py-2 rounded-lg"
                                 onClick={() => (window.location.href = '/courses')}
                             >
                                 Weider liesen
                             </Button>
                         </div>
-                        <div className="bg-jul-red p-4 rounded-lg shadow-md text-white text-center flex flex-col h-full justify-between items-center">
-                            <h3 className="text-xl font-bold">Workshops</h3>
+                        <div className="bg-jul-white border-2 border-jul-purple p-4 rounded-lg text-black text-center flex flex-col h-full justify-between items-center">
+                            <h3 className="text-xl font-bold text-jul-purple">Workshops</h3>
                             <p>Kreativ Atelier’en an thematesch Stonnen fir Grouss a Kleng.</p>
                             <Button
-                                className="mt-4 bg-white text-jul-red px-4 py-2 rounded-lg"
+                                className="mt-4 bg-jul-purple text-white px-4 py-2 rounded-lg"
                                 onClick={() => (window.location.href = '/workshops')}
                             >
                                 Weider liesen
                             </Button>
                         </div>
-                        <div className="bg-jul-creme p-4 rounded-lg shadow-md text-black text-center flex flex-col h-full justify-between items-center">
-                            <h3 className="text-xl font-bold">Evenementer</h3>
+                        <div className="bg-jul-white border-2 border-jul-yellow p-4 rounded-lg text-black text-center flex flex-col h-full justify-between items-center">
+                            <h3 className="text-xl font-bold text-jul-yellow">Evenementer</h3>
                             <p>Saisonal Evenementer fir Frënn a Famill.</p>
                             <Button
-                                className="mt-4 bg-white text-black px-4 py-2 rounded-lg w-min"
+                                className="mt-4 bg-jul-yellow text-black px-4 py-2 rounded-lg w-min"
                                 onClick={() => (window.location.href = '/events')}
                             >
                                 Weider liesen
