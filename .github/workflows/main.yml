@@ -47,6 +47,6 @@ jobs:
 
           # Restart the app with pm2 using the production start script
           pm2 delete 0
-          pm2 save
+          pm2 save --force
           pm2 start npm --name "eislekerhaus" -- run dev
-          pm2 save
+          pm2 save --force
