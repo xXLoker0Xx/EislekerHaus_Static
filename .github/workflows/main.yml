@@ -38,7 +38,7 @@ jobs:
 
           # Install dependencies and build the app
           npm install
-          npm run build
+          # npm run build
 
           # Install pm2 if it is not found
           if ! command -v pm2 &> /dev/null; then
@@ -46,7 +46,5 @@ jobs:
           fi
 
           # Restart the app with pm2 using the production start script
-          pm2 delete 0
-          pm2 save --force
-          pm2 start npm --name "eislekerhaus" -- run dev
+          pm2 restart eislekerhaus --force
           pm2 save --force
