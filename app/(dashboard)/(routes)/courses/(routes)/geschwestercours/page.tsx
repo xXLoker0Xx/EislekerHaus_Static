@@ -8,7 +8,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 const geschwesterCourse = () => {
-    const pagename = 'Geschwëstercours';
+    const pagename = 'Geschwëster';
 
     return (
         <div className="bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
@@ -20,13 +20,13 @@ const geschwesterCourse = () => {
                 <TitleMain title={pagename} />
 
                 <div className=" flex flex-col align-middle xl:flex-row gap-6 mb-4">
-                    <div className="flex w-full">
+                    <div className="flex flex-row w-full justify-center">
                         <Image
-                            src="/geschwester-course.png"
-                            alt="Geschwëstercours"
+                            src="/Geschwestercours.jpg"
+                            alt="Geschwestercours"
                             width={500}
                             height={500}
-                            className="rounded-lg shadow-md max-h-[480px] w-full object-cover"
+                            className="flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
                         />
                     </div>
                 </div>
