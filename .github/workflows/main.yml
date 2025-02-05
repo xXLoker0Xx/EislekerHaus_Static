@@ -24,7 +24,7 @@ jobs:
         port: 22
         script: |
           # Aplicar actualizaciones de seguridad
-          sudo apt update && sudo apt upgrade -y
+          # sudo apt update && sudo apt upgrade -y
 
           cd /var/www/EislekerHaus_Static/
           git pull origin main

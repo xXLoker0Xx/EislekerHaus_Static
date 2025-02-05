@@ -58,7 +58,7 @@ const HomePage: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row w-full justify-center xl:justify-between flex-wrap px-4">
+                <div className="flex flex-row w-full justify-center 2xl:justify-between flex-wrap px-4">
                     <Image
                         src="/Cabane 2.jpg"
                         alt="house"
@@ -71,7 +71,7 @@ const HomePage: React.FC = () => {
                         alt="house"
                         width={500}
                         height={500}
-                        className="hidden xl:flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
+                        className="hidden 2xl:flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
                     />
                 </div>
 
@@ -100,7 +100,7 @@ const HomePage: React.FC = () => {
                             <h3 className="text-xl font-bold text-jul-green">Coursen</h3>
                             <p>Flott Aktivitéiten fir Elteren a Kanner vun all Alter.</p>
                             <Button
-                                className="mt-4 bg-jul-green text-white px-4 py-2 rounded-lg"
+                                className="mt-4 bg-jul-green text-white px-4 py-2 rounded-lg hover:bg-jul-red"
                                 onClick={() => (window.location.href = '/courses')}
                             >
                                 Weider liesen
@@ -110,7 +110,7 @@ const HomePage: React.FC = () => {
                             <h3 className="text-xl font-bold text-jul-purple">Workshops</h3>
                             <p>Kreativ Atelier’en an thematesch Stonnen fir Grouss a Kleng.</p>
                             <Button
-                                className="mt-4 bg-jul-purple text-white px-4 py-2 rounded-lg"
+                                className="mt-4 bg-jul-purple text-white px-4 py-2 rounded-lg hover:bg-jul-red"
                                 onClick={() => (window.location.href = '/workshops')}
                             >
                                 Weider liesen
@@ -120,7 +120,7 @@ const HomePage: React.FC = () => {
                             <h3 className="text-xl font-bold text-jul-yellow">Evenementer</h3>
                             <p>Saisonal Evenementer fir Frënn a Famill.</p>
                             <Button
-                                className="mt-4 bg-jul-yellow text-black px-4 py-2 rounded-lg w-min"
+                                className="mt-4 bg-jul-yellow text-white px-4 py-2 rounded-lg hover:bg-jul-red"
                                 onClick={() => (window.location.href = '/events')}
                             >
                                 Weider liesen
