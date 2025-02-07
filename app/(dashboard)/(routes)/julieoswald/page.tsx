@@ -11,7 +11,7 @@ const AboutJulie = () => {
     const pagename = "Iwwert mech";
 
     return (
-        <div className="bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
+        <div className="page-fade-in bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
 
             {/* Asymmetric background shapes */}
             <CustomBackground />
@@ -51,7 +51,11 @@ const AboutJulie = () => {
                             </p>
 
                             <p className="text-lg leading-relaxed text-zinc-700">
-                                An engem ganz klengen a gemittleche Kader bidden ech iech flott Aktivitéiten a Workshops u ronderëm d'Schwangerschaft, d'Familljeliewen, d’Klengkandentwécklung, souwéi och individuell Seancë fir äert d’Wuelbefassen.
+                                An engem ganz klengen a gemittleche Kader bidden ech iech flott Aktivitéiten a Workshops u ronderëm d'Schwangerschaft, d'Familljeliewen, d’Klengkandentwécklung, souwéi och individuell Seancë fir äert d'Wuelbefannen.
+                            </p>
+
+                            <p className="text-lg leading-relaxed text-zinc-700">
+                                Ech bidden iech e Raum fir är Wënsch, Iddien an awer och är Suergen a Froen.
                             </p>
 
                             <div className="bg-jul-gold/10 p-4 rounded-xl border-l-2 border-jul-red">
@@ -61,10 +65,6 @@ const AboutJulie = () => {
                                 </p>
                             </div>
 
-                            <p className="text-lg leading-relaxed text-zinc-700">
-                                Ech bidden iech e Raum fir är Wënsch, Iddien an awer och är Suergen a Froen.
-                                Mee léiwer wéi iwwert mech ze schwätzen, léiert mech liewer persönlech kennen!
-                            </p>
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-4 mt-6 text-center items-center">

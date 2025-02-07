@@ -15,7 +15,7 @@ interface EvCoPageProp {
 export const EvCoWogenPage: React.FC<EvCoPageProp> = ({ pagename, courses }) => {
 
     return (
-        <div className="min-h-screen bg-jul-white p-8 relative overflow-hidden -mb-12">
+        <div className="page-fade-in min-h-screen bg-jul-white p-8 relative overflow-hidden -mb-12">
             {/* Asymmetric background shapes */}
             <CustomBackground />
 

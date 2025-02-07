@@ -24,7 +24,7 @@ export const EvCoWoCardGeneral: React.FC<Content> = ({
                         <h1 className="font-bold">{title}</h1>
                     </div>
                     <div className="flex items-center text-base text-jul-red my-2">
-                        <span>Präis: {price} €</span>
+                        <span>Präis: {typeof price === "number" ? `${price} €` : price}</span>
                     </div>
                 </CardTitle>
             </CardHeader>
@@ -44,7 +44,7 @@ export const EvCoWoCardGeneral: React.FC<Content> = ({
                 <div className="flex flex-row items-center justify-between">
                     {Descriptionlink && (
                         <Button
-                            className="bg-jul-red text-white hover:bg-jul-red/90"
+                            className="bg-jul-green text-white hover:bg-jul-green/90"
                             onClick={() => (window.location.href = Descriptionlink)}
                         >
                             Méi Info
@@ -55,7 +55,7 @@ export const EvCoWoCardGeneral: React.FC<Content> = ({
                             className="bg-jul-red text-white hover:bg-jul-red/90"
                             onClick={() => window.open(BuyingLink, '_blank')}
                         >
-                            Mell mech un!
+                            Mell dech un!
                         </Button>
                     )}
                 </div>
