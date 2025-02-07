@@ -9,11 +9,11 @@ const CoursesPage = () => {
         {
             title: "BellyBasics-Hypnobirthing",
             subtitle: "Präsenz",
-            price: 220,
+            price: 480,
             description: "BellyBasics-Hypnobirthing® ass kee Gebuertfirbereedungsscours mee en Elterenfirbereedungscours a baséiert op engem bindungsorientéierte Konzept direkt vun Ufank vun der Schwangerschaft un - et gëtt keng Zäitlimitt hei.",
             Photo: "./BellyBasics-Hypnobirthing.jpg",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
             Descriptionlink: "/courses/bellybasics-hypnobirthing",
         },
         {
@@ -23,7 +23,7 @@ const CoursesPage = () => {
             description: "De BabySteps® Cours riicht sech un Eltere mat hire Puppelcher am Alter vun ongeféier 1 bis 12 Méint. Et geet drëm, iech duerch dat ganzt, spannend éischt Joer ze begleeden an iech ze hëllefen ären eegene Wee als Elteren ze fannen. Wärend dem Cours ginn et vill wonnerbar Sënnes- a Spillureegungen, Schoussreider, Lidder a vill Spaass fir Grouss a Kleng.",
             Photo: "./babby-steps.png",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
             Descriptionlink: "/courses/babysteps",
         },
         {
@@ -33,28 +33,38 @@ const CoursesPage = () => {
             description: "De MaxiSteps® Bewegungs- an Erliefniscours riicht sech un Eltere mat hire klenge Kanner vun ongeféier 12 bis 36 Méint. De gréissten Deel vum MaxiSteps®-Cours besteet aus Beweegungsureegungen betreffend d'Entwécklung vum Selbstwertempfannen, Kierperbewosstsinn, Motorik, Sprooch a Beweegung. Et gëtt och Zäit fir kuerzen Austausch a Plaz fir Suerge souwéi Tipps fir den Alldag mat ären Kanner.",
             Photo: "./maxi-steps.png",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
             Descriptionlink: "/courses/maxisteps",
         },
         {
             title: "Geschwëstercours",
             subtitle: "Online & Präsenz",
             price: 195,
-            description: "De bindungsorientéierte Geschwëstercours®️  riicht sech u Kanner am Alter tëscht 3 an 8 Joer, déi an den nächste Wochen e Geschwësterchen kréien an un hir Elteren. Duerch d'Gebuert vun engem anere Puppelchen ännert d'Struktur an der Famillnach eng Kéier an net ëmmer ass d'Ukomme vum nei gebuerene Bierger fir d' Geschwësterkanner eng Freed.",
+            description: "De bindungsorientéierte Geschwëstercours®️  riicht sech u Kanner am Alter tëscht 3 an 8 Joer, déi an den nächste Wochen e Geschwësterchen kréien an un hir Elteren. Duerch d'Gebuert vun engem anere Puppelchen ännert d'Struktur an der Famill nach eng Kéier an net ëmmer ass d'Ukomme vum nei gebuerene Bierger fir d' Geschwësterkanner eng Freed.",
             Photo: "",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
             Descriptionlink: "/courses/geschwestercours",
         },
         {
             title: "Mini Signs",
             subtitle: "Online & Präsenz",
-            price: 120,
+            price: 160,
             description: "MiniSigns® ass e Cours fir Eltere mat hire Puppelcher tëscht 6 an 18 Méint. Déi Kleng gi mat vill Spaass, Spiller, Lidder a Musek duerch d‘Stonne begleet, wärend d’Eltere ganz niewenbei Gebäerde léieren, déi fir den Alldag gëeegent sinn a Tipps kréien, fir se doheem z’integréieren. Et gëtt och alles wat dir wësse musst iwwer déi kognitiv an emotional Entwécklung vun de Kanner, kompakt a gutt virbereet an direkter Verbindung mat der jeeweileger Themenstonn.",
             Photo: "./mini-signs.png",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
             Descriptionlink: "/courses/minisigns",
+        },
+        {
+            title: "Bëbeesmassage",
+            subtitle: "Präsenz",
+            price: "79 - 109 €",
+            description: "Eng Bëbeesmassage stäerkt d’Bindung tëscht Elteren a Bëbee’en, bréngt Rou a fërdert d’Entwécklung vum Kand. Mat sanften Techniken hëlleft se Stress ze reduzéieren an d’Wuelbefannen ze verbesseren. De Cours ass fir Bëbee’en vu 6 Wochen bis 6 Méint a bitt eng gemittlech Léiererfarung.",
+            Photo: "",
+            location: "26 An d'Klaus, L-9956 Hachiville",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
+            Descriptionlink: "/courses/bebeesmassage",
         },
         {
             title: "BabyBoogie",
@@ -63,7 +73,7 @@ const CoursesPage = () => {
             description: "BabyBoogie ass en Danzkonzept fir Eltere mat hire Puppelcher vun 0 bis 36 Méint. Spaass steet un éischter Stell!",
             Photo: "./BabyBoogie.png",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
             Descriptionlink: "/courses/babyboogie",
         },
         {
@@ -73,7 +83,7 @@ const CoursesPage = () => {
             description: "BoogieKids riicht sech u Kanner tëscht 3 a 7 Joer ouni hir Elteren. D'Kanner entdecken d'Welt vum Danz a Musek op eng spilleresch Manéier. De Fokus ass op d'Freed vun der Beweegung, net op d'Léiere vu perfekt Danzschrëtt.",
             Photo: "./Boogie-Kids.jpg",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
             Descriptionlink: "/courses/boogiekids",
         },
         {
@@ -83,9 +93,10 @@ const CoursesPage = () => {
             description: "Fir Kierper, Geescht a Séil! Bass du am Moment schwanger? Oder hues du schonn dain Puppelchen a just déng Réckbildung ofgeschloss?  Fills du dech bereet an wëlls du dech erëm mei beweegen? Du wëlls Zäit fir dech, fir dain Kierper ze spieren ouni dir Suergen iwwer dain Puppelchen ze maache, ween sech em hie këmmert an der Zeit? Kee Problem, well MommySteps® ass dat alles!",
             Photo: "",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "",
+            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
             Descriptionlink: "/courses/mommysteps",
         },
+
     ];
 
     return (

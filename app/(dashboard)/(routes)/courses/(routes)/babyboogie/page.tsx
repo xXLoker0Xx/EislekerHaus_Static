@@ -11,7 +11,7 @@ const babyboogie = () => {
     const pagename = "Baby Boogie";
 
     return (
-        <div className="bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
+        <div className="page-fade-in bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
 
             {/* Asymmetric background shapes */}
             <CustomBackground />
@@ -20,13 +20,13 @@ const babyboogie = () => {
                 <TitleMain title={pagename} />
 
                 <div className=" flex flex-col align-middle xl:flex-row gap-6 mb-4">
-                    <div className="flex flex-row w-full justify-center">
+                    <div className="page-fade-in flex flex-row w-full justify-center">
                         <Image
                             src="/BabyBoogie.png"
                             alt="Baby Boogie"
                             width={500}
                             height={500}
-                            className="flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
+                            className="page-fade-in flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
                         />
                     </div>
                 </div>
@@ -66,9 +66,9 @@ const babyboogie = () => {
                         <div>
                             <Button
                                 className="bg-jul-red text-white hover:bg-jul-red/90"
-                                onClick={() => window.open("https://example.com", '_blank')}
+                                onClick={() => window.open("https://www.kikudoo.com/eislekerhaus", '_blank')}
                             >
-                                Mell mech un!
+                                Mell dech un!
                             </Button>
                         </div>
                     </div>

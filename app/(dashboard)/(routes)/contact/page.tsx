@@ -10,7 +10,7 @@ import CustomBackground from '@/components/CustomBack';
 import { TitleMainSinmb } from '@/components/TitleMain';
 
 const ContactPage: React.FC = () => {
-    const pagename = "Kontakt"
+    const pagename = "Contact"
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -26,7 +26,7 @@ const ContactPage: React.FC = () => {
     };
 
     return (
-        <div className="min-h-screen bg-jul-white p-8 relative overflow-hidden -mb-12">
+        <div className="page-fade-in min-h-screen bg-jul-white p-8 relative overflow-hidden -mb-12">
             <CustomBackground />
 
             <div className="lg:tracking-widest lg:pl-20 lg:pr-20 mx-auto relative z-10 mt-20 lg:mt-0">
@@ -36,7 +36,7 @@ const ContactPage: React.FC = () => {
                     <Card className="bg-jul-white bg-opacity-80">
                         <CardHeader>
                             <CardTitle className="text-center md:text-left text-3xl font-bold text-jul-green">
-                                Schwätzt mam Julie
+                                Schréif mir
                             </CardTitle>
                         </CardHeader>
 

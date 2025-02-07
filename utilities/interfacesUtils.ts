@@ -14,7 +14,7 @@ export interface Page {
 export interface Content {
     title: string; // The title of the content
     subtitle?: string | undefined; // Optional subtitle for additional context
-    price: number; // The price associated with the content
+    price: string | number | undefined; // The price associated with the content
     description: string; // A detailed description of the content
     Photo?: String | undefined; // Optional photo as a Buffer
     location?: string | undefined; // Optional location for the event or course

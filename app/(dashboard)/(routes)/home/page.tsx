@@ -13,7 +13,7 @@ import Image from "next/image";
 const HomePage: React.FC = () => {
 
     return (
-        <div className="bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
+        <div className="page-fade-in bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
             {/* Asymmetric background shapes */}
             <CustomBackground />
 
@@ -27,11 +27,11 @@ const HomePage: React.FC = () => {
                     {/* Texto */}
                     <div className="space-y-2">
                         <p className="text-zinc-600 text-base text-center">
-                            Eisleker Haus ass méi wéi just en Zentrum – et ass eng Plaz vum Häerz, wou d'Liewe gefeiert gëtt. Hei steet d'Famill am Mëttelpunkt, an all Generatioun gëtt begréisst, vu Puppelcher bis Grousselteren.
+                            Eisleker Haus ass méi wéi just en Raum – et ass eng Plaz vum Häerz, wou d'Liewe gefeiert gëtt. Hei steet d'Famill am Mëttelpunkt, an all Generatioun gëtt begréisst, vu Puppelcher bis Grousselteren.
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-row w-full justify-center">
+                <div className="page-fade-in flex flex-row w-full justify-center">
                     <Image
                         src="/Cabane 1.jpg"
                         alt="house"
@@ -44,13 +44,13 @@ const HomePage: React.FC = () => {
                     {/* Texto */}
                     <div className="space-y-2">
                         <p className="text-zinc-600 text-base text-center">
-                            Mir gleewen un d'Kraaft vun der Bindung an déi gemeinsam Momenter, déi d'Séil beräicheren. An enger häerzlecher an hämmlecher Atmosphär begleede mir iech duerch d'Reesen vum Elterendasein, vun der Schwangerschaft un bis bei déi éischt Schrëtt vum Kand.
+                            Ech un d'Kraaft vun der Bindung an déi gemeinsam Momenter, déi d'Séil beräicheren. An enger häerzlecher an heemlecher Atmosphär begleeden ech duerch d'Rees vum Elterendasein, durch d'Schwangerschaft bis bei déi éischt Schrëtt vum Kand.
                         </p>
                         <p className="text-zinc-600 text-base text-center">
-                            Mat Workshops, Aktivitéiten an individuell ugepasste Berodungen schafe mir e Raum, wou Freed, Léift an Zesummenhalt floréieren. Mir encouragéieren Kanner hir Fantasie ze entdecken, Elteren nei Kraaft ze tanken an Grousselteren déi besonnesch Roll an der Famill ze genéissen.
+                            Mat Workshops, Aktivitéiten an individuell ugepasste Berodungen schafe mir e Raum, wou Freed, Léift an Zesummenhalt wichteg sin. Mir encouragéieren d'Kanner hir Fantasie ze entdecken, d'Elteren nei Kraaft ze tanken an d'Grousselteren déi besonnesch Roll an der Famill ze genéissen.
                         </p>
                         <p className="text-zinc-600 text-base text-center">
-                            Am Eisleker Haus gëtt all Stonn e Moment vu Wäert. Mir freeën eis drop, mat iech zesummen ewech vum Alldag schéi Momenter ze schafen, wou jiddereen sech entfale kann – Grouss wéi Kleng.
+                            Am Eisleker Haus gëtt all Stonn e Moment vu Wäert. Ech freeën mech drop, mat iech zesummen ewech vum Alldag schéi Momenter ze schafen, wou jiddereen sech entfale kann – Grouss wéi Kleng.
                         </p>
                     </div>
                     {/* Textos visibles solo en lg */}
@@ -64,25 +64,25 @@ const HomePage: React.FC = () => {
                         alt="house"
                         width={500}
                         height={500}
-                        className="flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
+                        className="page-fade-in flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
                     />
                     <Image
                         src="/Cabane 3.jpg"
                         alt="house"
                         width={500}
                         height={500}
-                        className="hidden 2xl:flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
+                        className="page-fade-in hidden 2xl:flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
                     />
                 </div>
 
                 {/* About Julie */}
                 <section className="bg-jul-white p-4 rounded-lg shadow-md space-y-2 flex flex-col h-full justify-between items-center">
                     <h2 className="text-jul-red text-2xl font-bold text-center">
-                        Iwwert Julie
+                        Iwwert Mech
                     </h2>
                     <p className="text-zinc-600 text-base text-center">
-                        Julie ass Mamm vun zwee Kanner an huet vill Joren Erfarung als Educatrice. Si leet groussen Wäert op Familljebindung,
-                        perséinlech Entwécklung a Freed um Liewen. Mat Léift a Passioun huet si Eisleker Haus geschaf, en häerzleche Raum fir grouss a kleng.
+                        Ech si Mamm vun zwee Kanner an hunn vill Joren Erfarung als Educatrice. Ech leeën groussen Wäert op Familljebindung,
+                        perséinlech Entwécklung a Freed um Liewen. Mat Léift a Passioun hunn mir d'Eisleker Haus geschaf, en häerzleche Raum fir Grouss a Kleng.
                     </p>
                     <Button
                         className="bg-jul-red text-white hover:bg-jul-red/90"

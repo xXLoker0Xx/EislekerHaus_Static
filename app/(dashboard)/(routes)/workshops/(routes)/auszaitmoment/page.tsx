@@ -7,23 +7,21 @@ import React from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
-const boogiekids = () => {
-    const pagename = 'BoogieKids';
+const Auszaitmoment = () => {
+    const pagename = "Auszäitmoment";
 
     return (
         <div className="page-fade-in bg-jul-white p-8 relative overflow-hidden" style={{ minHeight: 'calc(100vh - 48px)' }}>
-
-            {/* Asymmetric background shapes */}
             <CustomBackground />
 
             <div className="lg:tracking-widest lg:pl-20 lg:pr-20 mx-auto relative z-10 mt-20 lg:mt-0">
                 <TitleMain title={pagename} />
 
-                <div className=" flex flex-col align-middle xl:flex-row gap-6 mb-4">
-                    <div className="flex flex-row w-full justify-center">
+                <div className="flex flex-col align-middle xl:flex-row gap-6 mb-4">
+                    <div className="page-fade-in flex flex-row w-full justify-center">
                         <Image
-                            src="/Boogie-Kids.jpg"
-                            alt="Boogie Kids"
+                            src="/Auszaitmoment.jpg"
+                            alt="Auszäitmoment"
                             width={500}
                             height={500}
                             className="flex rounded-lg shadow-md max-h-[480px] w-max object-contain"
@@ -31,30 +29,34 @@ const boogiekids = () => {
                     </div>
                 </div>
 
-                {/* Contenedor principal en flex */}
                 <div className="bg-jul-white p-4 rounded-lg shadow-md flex flex-col xl:flex-row gap-6">
-
-                    {/* Textos */}
                     <div className="flex-grow space-y-4">
                         <div className="flex-grow space-y-4">
-                            <h2 className="text-jul-red text-2xl font-bold">En Danzcours fir Kanner vun 3 - 7 Joer</h2>
+                            <h2 className="text-jul-red text-2xl font-bold">Zeit fir dech</h2>
                         </div>
 
                         <p className="text-zinc-600 text-base">
-                            BoogieKids riicht sech u Kanner tëscht 3 a 7 Joer ouni hir Elteren. D'Kanner entdecken d'Welt vum Danz a Musek op eng spilleresch Manéier. De Fokus ass op d'Freed vun der Beweegung, net op d'Léiere vu perfekt Danzschrëtt.
+                            Denk och un dech selwer a gënn dir e bëssi Zeit fir dech. Zesumme kucke mir wat dir gutt deet a woumadden's du dir eng Freed kanns maachen an nei Energie tanken kanns.
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Kreativitéit gëtt och gefërdert an d'Kanner kënnen hir Fantasie a Kreativitéit fräi entdecken an nei Beweegungen ausprobéieren.
+                            Mir wäerten e klengt Virgespréich hunn, da kanns du däi ganz individuelle Moment genéissen a wäerten dann nach e klengen Ofschloss maachen.
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Andeems Sie an engem Grupp danzen, léiere Kanner mat aneren zesummen ze schaffen, Frëndschaften anzegoen an hiert Selbstvertrauen ze erhéijen. Erfollegserliefnis duerch nei Beweegungen ze léieren an zesummen ze danze stäerken ausserdeem d'Selbstvertraue vun de Kanner.
+                            Do weg gemittlech Kleeder un a bréng eppes ze drénke mat!
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Duerch de fréie Kontakt mat Danz a Musek ginn d’Kanner spilleresch an en aktive Liewensstil agefouert, dee Sie wärend hirem Liewe begleede kann.
+                            Virgesi sinn <strong>1,5h bis 2h</strong>, gäre kenne mir dëst awer un deng Bedierfnisser upassen.
                         </p>
+
+                        <div className="space-y-2">
+                            <h3 className="text-jul-red text-xl font-semibold">Méiglechkeeten:</h3>
+                            <p className="text-zinc-600 text-base">
+                                Beispiller: Entspaanungsübungen, Achtsamkeet, Klangbad, Klangrees, Kraaftdéier, an villes méi…
+                            </p>
+                        </div>
 
                         <div>
                             <Button
@@ -68,10 +70,9 @@ const boogiekids = () => {
                 </div>
             </div>
 
-            {/* Floating elements */}
             <FloatingElements />
         </div>
     );
 };
 
-export default boogiekids;
+export default Auszaitmoment;

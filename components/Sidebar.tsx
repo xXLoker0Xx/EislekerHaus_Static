@@ -45,6 +45,10 @@ const routes = [
                 href: "/courses/minisigns",
             },
             {
+                title: "Bëbeesmassage",
+                href: "/courses/bebeesmassage",
+            },
+            {
                 title: "BabyBoogie",
                 href: "/courses/babyboogie",
             },
@@ -83,6 +87,26 @@ const routes = [
             {
                 title: "Einfach Eltern",
                 href: "/workshops/einfacheltern",
+            },
+            {
+                title: "Kannergrupp",
+                href: "/workshops/kannergrupp",
+            },
+            {
+                title: "Kreativatelier",
+                href: "/workshops/kreativatelier",
+            },
+            {
+                title: "Grousselteren-Treff",
+                href: "/workshops/grousselteren",
+            },
+            {
+                title: "Wonschgrousselteren",
+                href: "/workshops/wonschgrousselteren",
+            },
+            {
+                title: "Auszäitmoment",
+                href: "/workshops/auszaitmoment",
             },
         ]
     },
