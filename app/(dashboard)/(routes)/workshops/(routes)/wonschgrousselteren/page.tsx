@@ -33,7 +33,7 @@ const Wonschgrousselteren = () => {
                     <div className="flex-grow space-y-4">
                         <div className="flex-grow space-y-4">
                             <h2 className="text-jul-red text-2xl font-bold">Wonschgrousselteren</h2>
-                            <h2 className="text-jul-red text-xl font-bold">Intergenerationeller Projekt</h2>
+                            <h2 className="text-jul-red text-xl font-bold">Intergenerationelle Projekt</h2>
                         </div>
 
                         <p className="text-zinc-600 text-base">

@@ -56,7 +56,7 @@ const bellybasics = () => {
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">den Ëmgang mam Puppelchen (Kinästhetik Infant Handling)</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">dem Drohduch wärend der Schwangerschaft</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">dem Wochenbett</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Stellen / Fläsch</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Stëllen / Fläsch</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Schlof</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Droe mat engem Drohduch oder enger Droh</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Rebozo-Methoden fir Begleedung an Hëllef wärend der Gebuert</li>

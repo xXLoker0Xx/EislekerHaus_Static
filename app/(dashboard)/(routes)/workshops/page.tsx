@@ -11,7 +11,7 @@ const EventsPage = () => {
             title: "Mëllech",
             subtitle: "Online a Präsenz",
             price: 49,
-            description: "Egal wéi dir äre Puppelche wëllt ernären, ob mat der Broscht oder der Fläsch – an dësem Workshop léiert dir alles wat dir wësse musst iwwer Stellen a Fläsch ginn.",
+            description: "Egal wéi dir äre Puppelche wëllt ernären, ob mat der Broscht oder der Fläsch – an dësem Workshop léiert dir alles wat dir wësse musst iwwer Stëllen a Fläsch ginn.",
             Photo: "",
             location: "26 An d’Klaus, L-9956 Hachiville",
             BuyingLink: "https://www.kikudoo.com/eislekerhaus",
@@ -60,7 +60,7 @@ const EventsPage = () => {
         {
             title: "Kreativatelier",
             subtitle: "Präsenz",
-            price: "ob 35 €",
+            price: "ab 35 €",
             description: "Dann kommt laanscht ! Zesumme kreéiere mir flott Dekoratioune fir doheem oder kucken saisonal wat eis kreativ géif ureegen.",
             Photo: "",
             location: "26 An d’Klaus, L-9956 Hachiville",

@@ -36,7 +36,7 @@ const ContactPage: React.FC = () => {
                     <Card className="bg-jul-white bg-opacity-80">
                         <CardHeader>
                             <CardTitle className="text-center md:text-left text-3xl font-bold text-jul-green">
-                                Schréif mir
+                                Schreif mir
                             </CardTitle>
                         </CardHeader>
 

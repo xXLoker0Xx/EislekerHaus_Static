@@ -54,14 +54,14 @@ const maxistepsCourse = () => {
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Autonomiephase</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">„Mamma“ Burnout</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Schlof</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Familljendesch, Picky Eater, Mëllech</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Familljendësch, Picky Eater, Mëllech</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Trotz, Frust, Roserei</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Grenzen, Reegelen, „Nee“</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Strofen, Konsequenzen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Léien, Deelen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Gewaltfräi Kommunikatioun</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Agewinnung Crèche, Friembetreiung</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kierperfleeg, Weckelen, Zänn wäschen</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kierperfleeg, Wéckelen, Zänn wäschen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kognitiv Entwécklung vum Kand</li>
                         </ul>
 

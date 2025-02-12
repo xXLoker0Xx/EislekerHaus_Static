@@ -13,7 +13,7 @@ const EventsPage = () => {
             description: "Eng wonnerbar Zeremonie fir d'Mamm ze feieren. Perséinlech Ritualer fir d'Schwangerschaft ze éieren an d'Mamm ze stäerken. Eege Moment mat Léifsten fir onvergiesslech Erënnerungen.",
             Photo: "./blessing-way.jpg",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
+            BuyingLink: "/contact",
             Descriptionlink: "",
         },
         {
@@ -23,7 +23,7 @@ const EventsPage = () => {
             description: "Perséinlech Zeremonie fir de Puppelchen ze begréissen. Mat Famill a Frënn eemoleg Momenter schafen an d'Liewe vum Neigebuerene feieren.",
             Photo: "./welcome-ceremony.jpg",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
+            BuyingLink: "/contact",
             Descriptionlink: "",
         },
         {
@@ -33,7 +33,7 @@ const EventsPage = () => {
             description: "Festlech Feier fir d'Schwangerschaft an de Puppelchen ze éieren. Mat Spiller, Kuch a guddem Humor - eng Kéier 'Queen for a Day' sinn!",
             Photo: "./babyshower.jpg",
             location: "26 An d’Klaus, L-9956 Hachiville",
-            BuyingLink: "https://www.kikudoo.com/eislekerhaus",
+            BuyingLink: "/contact",
             Descriptionlink: "",
         },
         /* {

@@ -55,7 +55,7 @@ const geschwesterCourse = () => {
 
                         <p className="text-zinc-600 text-base">Themen vun der éischter Stonn mat Kand:</p>
                         <ul className="text-zinc-600 text-base list-none pl-5">
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kanner leieren eng Stoffwendel maachen a wisou sie dono beim Puppelchen zwar kennen hëllefen awer net eleng wéckelen.</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kanner leieren eng Stoffwëndel maachen a wisou sie dono beim Puppelchen zwar kennen hëllefen awer net eleng wéckelen.</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Anhand vu Biller kréien sie erkläert wat de Puppelchen am Bauch an no der Gebuert schonn alles kann a wat net.</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">An zum Schluss kréien sie nach e flotte Geschwësterdiplom a kennen zesummen eng kleng Iwwerraschung fir de Puppelche gestalten.</li>
                         </ul>

@@ -56,10 +56,10 @@ const babysteps = () => {
                         <ul className="text-zinc-600 text-base list-none pl-5">
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Bindung stäerken</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Entwécklung am éischte Liewensjoer</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Signaler beim Bëbee erkennen a Bedierfnisser stellen</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Signaler beim Bëbee erkennen a Bedierfnisser Stëllen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kommunikatioun</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Suckel</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Stellen a Fläsch</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Stëllen a Fläsch</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Droen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Schlofen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Beikost</li>
