@@ -76,7 +76,7 @@ const beikost = () => {
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi eng Liewensmëttel si gëeegent a wéi eng sinn net gëeegent?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Bräi a BLW (Baby Led Weaning) - wat sinn d'Ënnerscheeder?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi suerge mir fir d'Eisenversuergung vun eisem Puppelchen?</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Mammemëllech, Formula-Mëllech - heescht d'Aféierung vun der Beikost automatesch d‘Enn vun der Mëllech oder d'Ofstellen? A wat drénkt et dann?</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Mammemëllech, Formula-Mëllech - heescht d'Aféierung vun der Beikost automatesch d‘Enn vun der Mëllech oder d'Ofstëllen? A wat drénkt et dann?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Mäi Puppelche wëll net iessen, wat elo?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Sécherheet an Éischt Hëllef an Iesssituatiounen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Alldeeglech Tipps</li>

@@ -69,7 +69,7 @@ const einfachEltern = () => {
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Bezéiung a Bindung</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Virbereedung fir d'Gebuert</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Signaler erkennen a verantwortlech reagéieren</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Bindungsorientéiert Stellen an d Fläsch ginn</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Bindungsorientéiert Stëllen an d Fläsch ginn</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">De Puppelchen droen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">D'Schlofsituatioun upassen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Bezéiung amplaz Erzéiung</li>

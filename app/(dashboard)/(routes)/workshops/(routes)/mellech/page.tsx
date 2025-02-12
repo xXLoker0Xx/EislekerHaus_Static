@@ -42,11 +42,11 @@ const mellech = () => {
                         </div>
 
                         <p className="text-zinc-600 text-base">
-                            Egal wéi dir äre Puppelche wëllt ernären, ob mat der Broscht oder der Fläsch – an dësem Workshop léiert dir alles wat dir wësse musst iwwer Stellen a Fläsch ginn.
+                            Egal wéi dir äre Puppelche wëllt ernären, ob mat der Broscht oder der Fläsch – an dësem Workshop léiert dir alles wat dir wësse musst iwwer Stëllen a Fläsch ginn.
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Egal ob mir Stellen oder d'Fläsch ginn ... all Eltere wëllen datt hire Puppelche gutt versuergt gëtt an hir Ernärung sécher a gutt ass. Dir kritt d'Grondlagen iwwer Stellen a Fläschemëllesch a mir huelen eis eng Rei Ammenmärercher ënnert d Lupp.
+                            Egal ob mir Stëllen oder d'Fläsch ginn ... all Eltere wëllen datt hire Puppelche gutt versuergt gëtt an hir Ernärung sécher a gutt ass. Dir kritt d'Grondlagen iwwer Stëllen a Fläschemëllesch a mir huelen eis eng Rei Ammenmärercher ënnert d Lupp.
                         </p>
 
                         <p className="text-zinc-600 text-base">
@@ -54,9 +54,9 @@ const mellech = () => {
                         </p>
 
                         <ul className="text-zinc-600 text-base list-none pl-5">
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wat sinn d'Hindernisser fir Stellen a wéi kann d'Stellen erfollegräich sinn?</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wat wann ech net Stellen kann oder net Stellen well?</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi gëtt genuch Mëllech fir Stellen produzéiert?</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wat sinn d'Hindernisser fir Stëllen a wéi kann d'Stëllen erfollegräich sinn?</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wat wann ech net Stëllen kann oder net Stëllen well?</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi gëtt genuch Mëllech fir Stëllen produzéiert?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi wëssen d'Eltere wann de Puppelchen hongereg ass?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi oft a wéi laang muss de Puppelche Mëllech kréien?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Brauch de Puppelchen och an der Nuecht Mëllech?</li>
@@ -66,8 +66,8 @@ const mellech = () => {
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Ass de Puppelchen duerch Mëllech verwinnt?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kann de Puppelche Koumëllech, Waasser an Téi drénken?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Den Eisengehalt an der Mammemëllech a Pre-Mëllech</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kann ech Stellen wann de Puppelchen Zänn kritt?</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Muss ech ophale mat Stellen wann ech Medikamenter huele muss?</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kann ech Stëllen wann de Puppelchen Zänn kritt?</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Muss ech ophale mat Stëllen wann ech Medikamenter huele muss?</li>
                         </ul>
 
                         <p className="text-zinc-600 text-base">

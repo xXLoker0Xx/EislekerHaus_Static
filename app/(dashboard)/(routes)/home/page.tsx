@@ -44,7 +44,7 @@ const HomePage: React.FC = () => {
                     {/* Texto */}
                     <div className="space-y-2">
                         <p className="text-zinc-600 text-base text-center">
-                            Ech un d'Kraaft vun der Bindung an déi gemeinsam Momenter, déi d'Séil beräicheren. An enger häerzlecher an heemlecher Atmosphär begleeden ech duerch d'Rees vum Elterendasein, durch d'Schwangerschaft bis bei déi éischt Schrëtt vum Kand.
+                            Ech gleewen un d'Kraaft vun der Bindung an déi gemeinsam Momenter, déi d'Séil beräicheren. An enger häerzlecher an heemlecher Atmosphär begleeden ech iech duerch d'Rees vum Elterendasein, durch d'Schwangerschaft bis bei déi éischt Schrëtt vum Kand.
                         </p>
                         <p className="text-zinc-600 text-base text-center">
                             Mat Workshops, Aktivitéiten an individuell ugepasste Berodungen schafe mir e Raum, wou Freed, Léift an Zesummenhalt wichteg sin. Mir encouragéieren d'Kanner hir Fantasie ze entdecken, d'Elteren nei Kraaft ze tanken an d'Grousselteren déi besonnesch Roll an der Famill ze genéissen.

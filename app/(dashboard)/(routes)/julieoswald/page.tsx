@@ -77,7 +77,9 @@ const AboutJulie = () => {
 
                             <div className="flex items-center gap-2 text-zinc-600">
                                 {/* <span className="text-2xl">👩👧👦</span> */}
-                                <span className="text-sm italic">Zertifizéiert Educatrice & Familljecoach</span>
+                                <span className="text-sm italic">Zertifizéiert Educatrice & Zertifizéiert Educatrice & Einfach-Eltern-Kursleederin, Familljeberoderin & -Begleederin
+                                    Divers Formatiounen a verschiddenen Beräicher
+                                </span>
                             </div>
                         </div>
                     </div>

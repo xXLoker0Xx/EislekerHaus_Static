@@ -47,10 +47,6 @@ const GrousselterenTreff = () => {
                             Hei waarde flott Kreativatelier'en, Geschichtenabenteuer, Musik, Entspaanungsübungen a villes mei.
                         </p>
 
-                        <p className="text-zinc-600 text-base">
-                            Mir treffen eis all 2 Wochen
-                        </p>
-
                         <div>
                             <Button
                                 className="bg-jul-red text-white hover:bg-jul-red/90"

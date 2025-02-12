@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/libs/utils";
-import { BookA, ChevronsUpDown, Contact, DraftingCompass, Layers, LucideProps, PersonStanding, TicketCheck } from "lucide-react";
+import { BookA, ChevronsUpDown, Contact, DraftingCompass, Layers, LucideProps, PersonStanding, ReceiptText, TicketCheck, TicketPercent } from "lucide-react";
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
@@ -89,7 +89,7 @@ const routes = [
                 href: "/workshops/einfacheltern",
             },
             {
-                title: "Kannergrupp",
+                title: "Kannertreff",
                 href: "/workshops/kannergrupp",
             },
             {
@@ -101,7 +101,7 @@ const routes = [
                 href: "/workshops/grousselteren",
             },
             {
-                title: "Wonschgrousselteren",
+                title: "Wonschgrousselteren & Wonschenkel",
                 href: "/workshops/wonschgrousselteren",
             },
             {
@@ -130,7 +130,7 @@ const routes = [
     },
     {
         label: "Mini-Evenementer",
-        icon: TicketCheck,
+        icon: TicketPercent,
         href: "/minievents",
         color: "text-jul-green"
     },
@@ -144,6 +144,12 @@ const routes = [
         label: "Contact",
         icon: Contact,
         href: "/contact",
+        color: "text-jul-green"
+    },
+    {
+        label: "Datenschutz",
+        icon: ReceiptText,
+        href: "/Datenschutz",
         color: "text-jul-green"
     },
 ];
