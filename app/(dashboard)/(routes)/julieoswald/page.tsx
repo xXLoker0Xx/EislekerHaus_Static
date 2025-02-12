@@ -67,7 +67,7 @@ const AboutJulie = () => {
 
                         </div>
 
-                        <div className="flex flex-col sm:flex-row gap-4 mt-6 text-center items-center">
+                        <div className="flex flex-col sm:flex-row gap-4 mt-6 items-center">
                             {/* <Button
                                 className="bg-jul-red text-white hover:bg-jul-red/90"
                                 onClick={() => window.open("https://calendly.com/julie-consultas", '_blank')}
@@ -75,10 +75,16 @@ const AboutJulie = () => {
                                 Termin vereenbaren
                             </Button> */}
 
-                            <div className="flex items-center gap-2 text-zinc-600">
+                            <div className="w-full flex flex-col gap-2 text-zinc-600">
+
                                 {/* <span className="text-2xl">👩👧👦</span> */}
-                                <span className="text-sm italic">Zertifizéiert Educatrice & Zertifizéiert Educatrice & Einfach-Eltern-Kursleederin, Familljeberoderin & -Begleederin
-                                    Divers Formatiounen a verschiddenen Beräicher
+                                <span className="text-sm italic">Zertifizéiert Educatrice
+                                </span>
+                                <span className="text-sm italic">Einfach-Eltern-Kursleederin
+                                </span>
+                                <span className="text-sm italic">Familljeberoderin & -Begleederin
+                                </span>
+                                <span className="text-sm italic">Divers Formatiounen a verschiddenen Beräicher
                                 </span>
                             </div>
                         </div>
