@@ -37,10 +37,10 @@ const MinieventsPage = () => {
             Descriptionlink: "",
         },
         {
-            title: "Kamishibai - Mageschen",
+            title: "Kamishibai",
             subtitle: "Präsenz",
             price: 30,
-            description: "Mageschten Geschichtentheater mat enger hëlzener Bühn. Eng kreativ Aktivitéit fir d'Fantasie a Sproochentwécklung vun de Kanner ze fërderen.",
+            description: "Mageschen Geschichtentheater mat enger hëlzener Bühn. Eng kreativ Aktivitéit fir d'Fantasie a Sproochentwécklung vun de Kanner ze fërderen.",
             Photo: "./kamishibai.jpg",
             location: "An verschidden Lokalitéiten",
             BuyingLink: "https://www.kikudoo.com/eislekerhaus",

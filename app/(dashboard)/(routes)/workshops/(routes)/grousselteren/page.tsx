@@ -32,7 +32,7 @@ const GrousselterenTreff = () => {
                 <div className="bg-jul-white p-4 rounded-lg shadow-md flex flex-col xl:flex-row gap-6">
                     <div className="flex-grow space-y-4">
                         <div className="flex-grow space-y-4">
-                            <h2 className="text-jul-red text-2xl font-bold">Gemeinschaft der Großeltern</h2>
+                            <h2 className="text-jul-red text-2xl font-bold">Grousselterentreff</h2>
                         </div>
 
                         <p className="text-zinc-600 text-base">
