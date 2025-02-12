@@ -147,7 +147,7 @@ const routes = [
         color: "text-jul-green"
     },
     {
-        label: "Datenschutz",
+        label: "AGB & Datenschutz",
         icon: ReceiptText,
         href: "/Datenschutz",
         color: "text-jul-green"
