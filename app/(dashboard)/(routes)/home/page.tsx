@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
                     {/* Texto */}
                     <div className="space-y-2">
                         <p className="text-zinc-600 text-base text-center">
-                            Eisleker Haus ass méi wéi just en Raum – et ass eng Plaz vum Häerz, wou d'Liewe gefeiert gëtt. Hei steet d'Famill am Mëttelpunkt, an all Generatioun gëtt begréisst, vu Puppelcher bis Grousselteren.
+                            Eisleker Haus ass méi wéi just en Raum – et ass eng Plaz vum Häerz, wou d‘Liewe gefeiert gëtt. Hei steet d‘Famill am Mëttelpunkt, an all Generatioun gëtt begréisst, vu Puppelcher bis Grousselteren.
                         </p>
                     </div>
                 </div>
@@ -44,10 +44,10 @@ const HomePage: React.FC = () => {
                     {/* Texto */}
                     <div className="space-y-2">
                         <p className="text-zinc-600 text-base text-center">
-                            Ech gleewen un d'Kraaft vun der Bindung an déi gemeinsam Momenter, déi d'Séil beräicheren. An enger häerzlecher an heemlecher Atmosphär begleeden ech iech duerch d'Rees vum Elterendasein, durch d'Schwangerschaft bis bei déi éischt Schrëtt vum Kand.
+                            Ech gleewen un d‘Kraaft vun der Bindung an déi gemeinsam Momenter, déi d‘Séil beräicheren. An enger häerzlecher an heemlecher Atmosphär begleeden ech iech duerch d‘Rees vum Elterendasein, durch d‘Schwangerschaft bis bei déi éischt Schrëtt vum Kand.
                         </p>
                         <p className="text-zinc-600 text-base text-center">
-                            Mat Workshops, Aktivitéiten an individuell ugepasste Berodungen schafe mir e Raum, wou Freed, Léift an Zesummenhalt wichteg sin. Mir encouragéieren d'Kanner hir Fantasie ze entdecken, d'Elteren nei Kraaft ze tanken an d'Grousselteren déi besonnesch Roll an der Famill ze genéissen.
+                            Mat Workshops, Aktivitéiten an individuell ugepasste Berodungen schafe mir e Raum, wou Freed, Léift an Zesummenhalt wichteg sin. Mir encouragéieren d‘Kanner hir Fantasie ze entdecken, d‘Elteren nei Kraaft ze tanken an d‘Grousselteren déi besonnesch Roll an der Famill ze genéissen.
                         </p>
                         <p className="text-zinc-600 text-base text-center">
                             Am Eisleker Haus gëtt all Stonn e Moment vu Wäert. Ech freeën mech drop, mat iech zesummen ewech vum Alldag schéi Momenter ze schafen, wou jiddereen sech entfale kann – Grouss wéi Kleng.
@@ -82,7 +82,7 @@ const HomePage: React.FC = () => {
                     </h2>
                     <p className="text-zinc-600 text-base text-center">
                         Ech si Mamm vun zwee Kanner an hunn vill Joren Erfarung als Educatrice. Ech leeën groussen Wäert op Familljebindung,
-                        perséinlech Entwécklung a Freed um Liewen. Mat Léift a Passioun hunn mir d'Eisleker Haus geschaf, en häerzleche Raum fir Grouss a Kleng.
+                        perséinlech Entwécklung a Freed um Liewen. Mat Léift a Passioun hunn mir d‘Eisleker Haus geschaf, en häerzleche Raum fir Grouss a Kleng.
                     </p>
                     <Button
                         className="bg-jul-red text-white hover:bg-jul-red/90"

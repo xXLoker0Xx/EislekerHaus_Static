@@ -42,7 +42,7 @@ const geschwesterCourse = () => {
                         </div>
 
                         <p className="text-zinc-600 text-base">
-                            De bindungsorientéierte Geschwëstercours riicht sech u Kanner am Alter tëscht 3 an 8 Joer, déi an den nächste Wochen e Geschwësterchen kréien an un hir Elteren. Duerch d'Gebuert vun engem anere Puppelchen ännert d'Struktur an der Famill nach eng Kéier an net ëmmer ass d'Ukomme vum nei gebuerene Bierger fir d'Geschwësterkanner eng Freed.
+                            De bindungsorientéierte Geschwëstercours riicht sech u Kanner am Alter tëscht 3 an 8 Joer, déi an den nächste Wochen e Geschwësterchen kréien an un hir Elteren. Duerch d‘Gebuert vun engem anere Puppelchen ännert d‘Struktur an der Famill nach eng Kéier an net ëmmer ass d‘Ukomme vum nei gebuerene Bierger fir d‘Geschwësterkanner eng Freed.
                         </p>
 
                         <p className="text-zinc-600 text-base">
@@ -69,7 +69,7 @@ const geschwesterCourse = () => {
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Exklusivzeit fir jiddereen a wéi déi kennen ausgesinn</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Ab wéini kennen Kanner iwwerhaapt Verständnis opbréngen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi schlofe mir ab elo all</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Tipps an Tricks ronderëm d'Mëllech-an d'Wéckelzait</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Tipps an Tricks ronderëm d‘Mëllech-an d‘Wéckelzait</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Geschwësterskills</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">A villes méi…</li>
                         </ul>

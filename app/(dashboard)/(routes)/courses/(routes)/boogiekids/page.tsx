@@ -41,15 +41,15 @@ const boogiekids = () => {
                         </div>
 
                         <p className="text-zinc-600 text-base">
-                            BoogieKids riicht sech u Kanner tëscht 3 a 7 Joer ouni hir Elteren. D'Kanner entdecken d'Welt vum Danz a Musek op eng spilleresch Manéier. De Fokus ass op d'Freed vun der Beweegung, net op d'Léiere vu perfekt Danzschrëtt.
+                            BoogieKids riicht sech u Kanner tëscht 3 a 7 Joer ouni hir Elteren. D‘Kanner entdecken d‘Welt vum Danz a Musek op eng spilleresch Manéier. De Fokus ass op d‘Freed vun der Beweegung, net op d‘Léiere vu perfekt Danzschrëtt.
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Kreativitéit gëtt och gefërdert an d'Kanner kënnen hir Fantasie a Kreativitéit fräi entdecken an nei Beweegungen ausprobéieren.
+                            Kreativitéit gëtt och gefërdert an d‘Kanner kënnen hir Fantasie a Kreativitéit fräi entdecken an nei Beweegungen ausprobéieren.
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Andeems Sie an engem Grupp danzen, léiere Kanner mat aneren zesummen ze schaffen, Frëndschaften anzegoen an hiert Selbstvertrauen ze erhéijen. Erfollegserliefnis duerch nei Beweegungen ze léieren an zesummen ze danze stäerken ausserdeem d'Selbstvertraue vun de Kanner.
+                            Andeems Sie an engem Grupp danzen, léiere Kanner mat aneren zesummen ze schaffen, Frëndschaften anzegoen an hiert Selbstvertrauen ze erhéijen. Erfollegserliefnis duerch nei Beweegungen ze léieren an zesummen ze danze stäerken ausserdeem d‘Selbstvertraue vun de Kanner.
                         </p>
 
                         <p className="text-zinc-600 text-base">

@@ -10,7 +10,6 @@ export const EvCoWoCardGeneral: React.FC<Content> = ({
     subtitle,
     price,
     description,
-    Photo,
     location,
     BuyingLink,
     Descriptionlink,
