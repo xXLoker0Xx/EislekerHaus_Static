@@ -45,19 +45,19 @@ const mommyStepsCourse = () => {
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Danzen - dat wësse mer haut - huet e ganz positiven Effekt op Kierper, Geescht a Séil! Eise Kierper gëtt méi flexibel, d'Muskelen, d'Seenen, d'Bänner, d'Koordinatioun an d'Häerz-Kreeslaf-System gi gestäerkt. Musek a Rhythmen si bewisen datt se gutt fir d'Séil sinn a wa mir Gléckshormone fräiginn, ginn d'Stresshormone vum alldeegleche Liewen automatesch reduzéiert.
+                            Danzen - dat wësse mer haut - huet e ganz positiven Effekt op Kierper, Geescht a Séil! Eise Kierper gëtt méi flexibel, d‘Muskelen, d‘Seenen, d‘Bänner, d‘Koordinatioun an d‘Häerz-Kreeslaf-System gi gestäerkt. Musek a Rhythmen si bewisen datt se gutt fir d‘Séil sinn a wa mir Gléckshormone fräiginn, ginn d‘Stresshormone vum alldeegleche Liewen automatesch reduzéiert.
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            A wärend der Schwangerschaft profitéiert de Kierper och vun den Danzbeweegungen, déi och eng wonnerbar Virbereedung op d'Gebuert sinn.
+                            A wärend der Schwangerschaft profitéiert de Kierper och vun den Danzbeweegungen, déi och eng wonnerbar Virbereedung op d‘Gebuert sinn.
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            De Puppelche verbréngt d'Coursstonn an der Droh an ass mat dobäi - awer d'Erfarung weist datt hien se meeschtens verschléift. Wärend de Puppelchen de Kierperkontakt an d'Beweegunge vun der Mamm genéisst, huet si di neidesch Rou fir sech op den Training ze konzentréieren.
+                            De Puppelche verbréngt d‘Coursstonn an der Droh an ass mat dobäi - awer d‘Erfarung weist datt hien se meeschtens verschléift. Wärend de Puppelchen de Kierperkontakt an d‘Beweegunge vun der Mamm genéisst, huet si di neidesch Rou fir sech op den Training ze konzentréieren.
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Duerch d'Drohschoul Hamburg® geschoult, kann ech iech iwwer korrekt Droen a wichtege Know-how iwwer déi meescht üblech Drohhëllefen oder Dicher bidden, fir dass dir ären Training ganzheetlech genéisse kennt.
+                            Duerch d‘Drohschoul Hamburg® geschoult, kann ech iech iwwer korrekt Droen a wichtege Know-how iwwer déi meescht üblech Drohhëllefen oder Dicher bidden, fir dass dir ären Training ganzheetlech genéisse kennt.
                         </p>
 
                         <div>

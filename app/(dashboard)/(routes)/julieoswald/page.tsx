@@ -5,7 +5,6 @@ import FloatingElements from '@/components/FloatingElements';
 import { TitleMain } from '@/components/TitleMain';
 import React from 'react';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
 
 const AboutJulie = () => {
     const pagename = "Iwwert mech";
@@ -51,7 +50,7 @@ const AboutJulie = () => {
                             </p>
 
                             <p className="text-lg leading-relaxed text-zinc-700">
-                                An engem ganz klengen a gemittleche Kader bidden ech iech flott Aktivitéiten a Workshops u ronderëm d'Schwangerschaft, d'Familljeliewen, d’Klengkandentwécklung, souwéi och individuell Seancë fir äert d'Wuelbefannen.
+                                An engem ganz klengen a gemittleche Kader bidden ech iech flott Aktivitéiten a Workshops u ronderëm d‘Schwangerschaft, d‘Familljeliewen, d‘Klengkandentwécklung, souwéi och individuell Seancë fir äert d‘Wuelbefannen.
                             </p>
 
                             <p className="text-lg leading-relaxed text-zinc-700">
@@ -60,8 +59,8 @@ const AboutJulie = () => {
 
                             <div className="bg-jul-gold/10 p-4 rounded-xl border-l-2 border-jul-red">
                                 <p className="text-lg italic text-zinc-700">
-                                    "An menger Cabane soll jiddereen sech wuelfillen an sech frei entfale kennen, Grouss wéi Kleng.
-                                    Ech freeë mech op vill flott Momenter mat iech all !"
+                                    `&quot;`An menger Cabane soll jiddereen sech wuelfillen an sech frei entfale kennen, Grouss wéi Kleng.
+                                    Ech freeë mech op vill flott Momenter mat iech all !`&quot;`
                                 </p>
                             </div>
 

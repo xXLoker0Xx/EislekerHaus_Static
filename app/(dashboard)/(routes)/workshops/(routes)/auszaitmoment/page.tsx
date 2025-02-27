@@ -36,7 +36,7 @@ const Auszaitmoment = () => {
                         </div>
 
                         <p className="text-zinc-600 text-base">
-                            Denk och un dech selwer a gënn dir e bëssi Zeit fir dech. Zesumme kucke mir wat dir gutt deet a woumadden's du dir eng Freed kanns maachen an nei Energie tanken kanns.
+                            Denk och un dech selwer a gënn dir e bëssi Zeit fir dech. Zesumme kucke mir wat dir gutt deet a woumadden‘s du dir eng Freed kanns maachen an nei Energie tanken kanns.
                         </p>
 
                         <p className="text-zinc-600 text-base">

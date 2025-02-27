@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/libs/utils";
-import { BookA, ChevronsUpDown, Contact, DraftingCompass, Layers, LucideProps, PersonStanding, ReceiptText, TicketCheck, TicketPercent } from "lucide-react";
+import { BookA, ChevronsUpDown, Contact, DraftingCompass, LucideProps, PersonStanding, TicketCheck, TicketPercent } from "lucide-react";
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";

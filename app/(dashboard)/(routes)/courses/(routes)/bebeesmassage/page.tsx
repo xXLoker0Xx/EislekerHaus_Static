@@ -35,11 +35,11 @@ const BebeesmassageCourse = () => {
                     {/* Texts */}
                     <div className="flex-grow space-y-4">
                         <div className="flex-grow space-y-4">
-                            <h2 className="text-jul-red text-2xl font-bold">Balsam fir d'Séil!</h2>
+                            <h2 className="text-jul-red text-2xl font-bold">Balsam fir d‘Séil!</h2>
                         </div>
 
                         <p className="text-zinc-600 text-base">
-                            Eng Bëbeesmassage ass Balsam fir d'Séil. Net just fir däi Kand mee och fir dech! Loosst iech ofhuelen aus ärem Alldag a schaaft gemeinsam e ganz intensive Moment zesummen a stäerkt soumat och är Elteren-Kand-Bindung zueneen.
+                            Eng Bëbeesmassage ass Balsam fir d‘Séil. Net just fir däi Kand mee och fir dech! Loosst iech ofhuelen aus ärem Alldag a schaaft gemeinsam e ganz intensive Moment zesummen a stäerkt soumat och är Elteren-Kand-Bindung zueneen.
                         </p>
 
                         <p className="text-zinc-600 text-base">
@@ -47,7 +47,7 @@ const BebeesmassageCourse = () => {
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Et hëlleft Stresshormoner ofzebauen, stäerkt d'Immunsystem an et kënne verschidde Beschwerden vum Kand, wéi zum Beispill Blähungen, allgemeng Onrou, asw duerch déi verschidde Massagetechniken gemindert gi.
+                            Et hëlleft Stresshormoner ofzebauen, stäerkt d‘Immunsystem an et kënne verschidde Beschwerden vum Kand, wéi zum Beispill Blähungen, allgemeng Onrou, asw duerch déi verschidde Massagetechniken gemindert gi.
                         </p>
 
                         <p className="text-zinc-600 text-base">
@@ -55,7 +55,7 @@ const BebeesmassageCourse = () => {
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Mir gesinn eis 2x 1,5h-2h, sou hu mir genuch Zeit fir e gemeinsamen Austausch, fir Unzekommen, d'Massage ze genéissen an e kléngen Ofschloss ze maachen. De Cours riicht sech u Bëbee'en tëscht 6 Wochen a 6 Méint.
+                            Mir gesinn eis 2x 1,5h-2h, sou hu mir genuch Zeit fir e gemeinsamen Austausch, fir Unzekommen, d‘Massage ze genéissen an e kléngen Ofschloss ze maachen. De Cours riicht sech u Bëbee‘en tëscht 6 Wochen a 6 Méint.
                         </p>
 
                         <p className="text-zinc-600 text-base">

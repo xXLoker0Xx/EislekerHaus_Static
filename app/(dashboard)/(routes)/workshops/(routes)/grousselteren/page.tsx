@@ -44,7 +44,7 @@ const GrousselterenTreff = () => {
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Hei waarde flott Kreativatelier'en, Geschichtenabenteuer, Musik, Entspaanungsübungen a villes mei.
+                            Hei waarde flott Kreativatelier‘en, Geschichtenabenteuer, Musik, Entspaanungsübungen a villes mei.
                         </p>
 
                         <div>

@@ -45,7 +45,7 @@ const Wonschgrousselteren = () => {
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Kommt laanscht an d'Cabane an zesumme loosse mir nei Frëndschaften entstoe fir Grouss a Kleng.
+                            Kommt laanscht an d‘Cabane an zesumme loosse mir nei Frëndschaften entstoe fir Grouss a Kleng.
                         </p>
 
                         <div>

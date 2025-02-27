@@ -47,9 +47,9 @@ const babyboogie = () => {
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Déi harmonesch Atmosphär, d'Musek an d'Beweegung kreéiere schéi Momenter, déi d'Elteren a Puppelcher
+                            Déi harmonesch Atmosphär, d‘Musek an d‘Beweegung kreéiere schéi Momenter, déi d‘Elteren a Puppelcher
                             zesummen erliewen. Zesummen danze fërdert och déi enk Verbindung tëscht iech an ärem Kand. Dat
-                            Kierperlecht Zesummespill an d‘ Interaktioun kënnen eng déif emotional Verbindung kreéieren.
+                            Kierperlecht Zesummespill an d‘Interaktioun kënnen eng déif emotional Verbindung kreéieren.
                         </p>
 
                         <p className="text-zinc-600 text-base">

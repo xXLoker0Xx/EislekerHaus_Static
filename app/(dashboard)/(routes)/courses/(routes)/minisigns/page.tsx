@@ -46,7 +46,7 @@ const minisignsCourse = () => {
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Wichteg ass de Bléck op d'Kand an d‘stäerke vun der Opmierksamkeet am Familljenalldaag. Bei MiniSigns geet et explizit net em Fréifërderung. D‘Gebäerde ginn net wéi Vokabele mat de Kanner geleiert, mee vun den Elteren am Alldaag integréiert a bidden sou dem Kand eng wichteg Méiglechkeet, sech kenne matzedeelen.
+                            Wichteg ass de Bléck op d‘Kand an d‘stäerke vun der Opmierksamkeet am Familljenalldaag. Bei MiniSigns geet et explizit net em Fréifërderung. D‘Gebäerde ginn net wéi Vokabele mat de Kanner geleiert, mee vun den Elteren am Alldaag integréiert a bidden sou dem Kand eng wichteg Méiglechkeet, sech kenne matzedeelen.
                         </p>
 
                         <p className="text-zinc-600 text-base">
@@ -55,7 +55,7 @@ const minisignsCourse = () => {
 
                         <p className="text-zinc-600 text-base">Themen:</p>
                         <ul className="text-zinc-600 text-base list-none pl-5">
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Aféirung an d'Gebäerdesprooch</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Aféirung an d‘Gebäerdesprooch</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Kierper</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Spillen</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Achtsamkeet am Alter</li>

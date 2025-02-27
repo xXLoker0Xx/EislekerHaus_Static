@@ -41,7 +41,7 @@ const maxistepsCourse = () => {
                         </div>
 
                         <p className="text-zinc-600 text-base">
-                            De MaxiSteps® Bewegungs- an Erliefniscours riicht sech un Eltere mat hire klenge Kanner vun ongeféier 12 bis 36 Méint. De gréissten Deel vum MaxiSteps®-Cours besteet aus Beweegungsureegungen betreffend d'Entwécklung vum Selbstwertempfannen, Kierperbewosstsinn, Motorik, Sprooch a Beweegung. Et gëtt och Zäit fir kuerzen Austausch a Plaz fir Suerge souwéi Tipps fir den Alldag mat ären Kanner.
+                            De MaxiSteps® Bewegungs- an Erliefniscours riicht sech un Eltere mat hire klenge Kanner vun ongeféier 12 bis 36 Méint. De gréissten Deel vum MaxiSteps®-Cours besteet aus Beweegungsureegungen betreffend d‘Entwécklung vum Selbstwertempfannen, Kierperbewosstsinn, Motorik, Sprooch a Beweegung. Et gëtt och Zäit fir kuerzen Austausch a Plaz fir Suerge souwéi Tipps fir den Alldag mat ären Kanner.
                         </p>
 
                         <p className="text-zinc-600 text-base">

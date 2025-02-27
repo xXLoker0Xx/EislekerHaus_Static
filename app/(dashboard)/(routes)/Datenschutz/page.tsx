@@ -4,7 +4,6 @@ import CustomBackground from '@/components/CustomBack';
 import FloatingElements from '@/components/FloatingElements';
 import { TitleMain } from '@/components/TitleMain';
 import React from 'react';
-import { Button } from '@/components/ui/button';
 
 const Datenschutz = () => {
     const pagename = "Datenschutz";

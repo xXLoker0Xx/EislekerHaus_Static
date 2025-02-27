@@ -46,7 +46,7 @@ const mellech = () => {
                         </p>
 
                         <p className="text-zinc-600 text-base">
-                            Egal ob mir Stëllen oder d'Fläsch ginn ... all Eltere wëllen datt hire Puppelche gutt versuergt gëtt an hir Ernärung sécher a gutt ass. Dir kritt d'Grondlagen iwwer Stëllen a Fläschemëllesch a mir huelen eis eng Rei Ammenmärercher ënnert d Lupp.
+                            Egal ob mir Stëllen oder d‘Fläsch ginn ... all Eltere wëllen datt hire Puppelche gutt versuergt gëtt an hir Ernärung sécher a gutt ass. Dir kritt d‘Grondlagen iwwer Stëllen a Fläschemëllesch a mir huelen eis eng Rei Ammenmärercher ënnert d Lupp.
                         </p>
 
                         <p className="text-zinc-600 text-base">
@@ -54,10 +54,10 @@ const mellech = () => {
                         </p>
 
                         <ul className="text-zinc-600 text-base list-none pl-5">
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wat sinn d'Hindernisser fir Stëllen a wéi kann d'Stëllen erfollegräich sinn?</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wat sinn d‘Hindernisser fir Stëllen a wéi kann d‘Stëllen erfollegräich sinn?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wat wann ech net Stëllen kann oder net Stëllen well?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi gëtt genuch Mëllech fir Stëllen produzéiert?</li>
-                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi wëssen d'Eltere wann de Puppelchen hongereg ass?</li>
+                            <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi wëssen d‘Eltere wann de Puppelchen hongereg ass?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi oft a wéi laang muss de Puppelche Mëllech kréien?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Brauch de Puppelchen och an der Nuecht Mëllech?</li>
                             <li className="relative before:content-['✦'] before:text-jul-green before:absolute before:-left-5">Wéi weess ech ob mäi Puppelche genuch Mëllech kritt?</li>
