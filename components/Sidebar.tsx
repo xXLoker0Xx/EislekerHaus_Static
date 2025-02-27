@@ -145,13 +145,13 @@ const routes = [
         icon: Contact,
         href: "/contact",
         color: "text-jul-green"
-    },
+    },/* 
     {
         label: "AGB & Datenschutz",
         icon: ReceiptText,
         href: "/Datenschutz",
         color: "text-jul-green"
-    },
+    }, */
 ];
 
 interface SidebarProps {
