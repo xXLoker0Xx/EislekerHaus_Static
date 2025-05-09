@@ -19,7 +19,7 @@ const Datenschutz = () => {
 
                 <div className="flex flex-col 2xl:flex-row gap-8 mb-8 items-center">
 
-                    <div className="space-y-4 text-justify">
+                    <div className="space-y-4">
                         <p className="text-lg leading-relaxed text-zinc-700">
                             Ich freue mich über Ihr Interesse an meiner Internetseite „Eisleker Haus“. Der Schutz Ihrer Privatsphäre ist mir sehr wichtig. In diesen Datenschutzinformationen informiere ich Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen meiner Website.
                         </p>
@@ -70,7 +70,7 @@ const Datenschutz = () => {
 
                 <div className="flex flex-col 2xl:flex-row gap-8 mb-8 items-center">
 
-                    <div className="space-y-4 text-justify">
+                    <div className="space-y-4">
                         <h3 className="text-lg font-semibold text-zinc-700">Allgemeine Geschäftsbedingungen</h3>
                         <p className="text-lg leading-relaxed text-zinc-700">
                             von Eisleker Haus Sàrl.

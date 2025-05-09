@@ -49,7 +49,7 @@ const CoursesPage = () => {
         {
             title: "Mini Signs",
             subtitle: "Online & Präsenz",
-            price: 160,
+            price: 190,
             description: "MiniSigns® ass e Cours fir Eltere mat hire Puppelcher tëscht 6 an 18 Méint. Déi Kleng gi mat vill Spaass, Spiller, Lidder a Musek duerch d‘Stonne begleet, wärend d’Eltere ganz niewenbei Gebäerde léieren, déi fir den Alldag gëeegent sinn a Tipps kréien, fir se doheem z’integréieren. Et gëtt och alles wat dir wësse musst iwwer déi kognitiv an emotional Entwécklung vun de Kanner, kompakt a gutt virbereet an direkter Verbindung mat der jeeweileger Themenstonn.",
             Photo: "./mini-signs.png",
             location: "26 An d’Klaus, L-9956 Hachiville",
