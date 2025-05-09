@@ -40,7 +40,7 @@ const EventsPage = () => {
             title: "Kannergebuertsdag",
             subtitle: "Präsenz",
             price: "Op Ufro",
-            description: `Loosst eis zesumme feieren. Dir wëllt gären e puer flott Stonne verbrénge fir ärem Kant säi Gebuertsdag an wësst net wou? Dann sidd dir hei genau richteg. Hei am Eisleker Haus waarde vill flott Angeboter op iech. Mellt iech a mir kucken zesumme wat fir iech dat Passend wier`,
+            description: "Loosst eis zesumme feieren. Dir wëllt gären e puer flott Stonne verbrénge fir ärem Kant säi Gebuertsdag an wësst net wou? Dann sidd dir hei genau richteg. Hei am Eisleker Haus waarde vill flott Angeboter op iech . Mellt iech a mir kucken zesumme wat fir iech dat Passend wier.",
             Photo: "./future-events.jpg",
             location: "26 An d’Klaus, L-9956 Hachiville",
             BuyingLink: "/contact",
