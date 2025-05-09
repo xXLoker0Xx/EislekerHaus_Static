@@ -45,6 +45,7 @@ jobs:
             npm install -g pm2
           fi
 
+          # pm2 start npm --name eislekerhaus -- run start
           # Restart the app with pm2 using the production start script
           pm2 restart eislekerhaus --force
           pm2 save --force
