@@ -23,7 +23,6 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          set -e
           # Aplicar actualizaciones de seguridad
           # sudo apt update && sudo apt upgrade -y
 
