@@ -8,6 +8,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import FloatingElements from '@/components/FloatingElements';
 import CustomBackground from '@/components/CustomBack';
 import { TitleMainSinmb } from '@/components/TitleMain';
+import { Mail, Phone, Facebook, Instagram } from "lucide-react";
+
 
 const ContactPage: React.FC = () => {
     const pagename = "Contact"
@@ -98,20 +100,28 @@ const ContactPage: React.FC = () => {
 
                                 <div className="space-y-2 text-jul-gray">
                                     <div className="flex items-center gap-2">
-                                        <span></span>
-                                        <span>Mail : <a href="mailto:eislekerhaus@gmail.com" className="text-jul-green hover:underline">eislekerhaus@gmail.com</a></span>
+                                        <Mail className="text-jul-green w-5 h-5" />
+                                        <span>
+                                            Mail : <a href="mailto:eislekerhaus@gmail.com" className="text-jul-green hover:underline">eislekerhaus@gmail.com</a>
+                                        </span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <span></span>
-                                        <span>Whatsapp : <a href="tel:+352621269956" className="text-jul-green hover:underline">621 269 956</a></span>
+                                        <Phone className="text-jul-green w-5 h-5" />
+                                        <span>
+                                            Whatsapp : <a href="tel:+352621269956" className="text-jul-green hover:underline">621 269 956</a>
+                                        </span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <span></span>
-                                        <span>Facebook : <a href="https://facebook.com/EislekerHaus" target="_blank" rel="noopener noreferrer" className="text-jul-green hover:underline">Eisleker Haus</a></span>
+                                        <Facebook className="text-jul-green w-5 h-5" />
+                                        <span>
+                                            Facebook : <a href="https://www.facebook.com/profile.php?id=61575846332748" target="_blank" rel="noopener noreferrer" className="text-jul-green hover:underline">Eislekerhaus</a>
+                                        </span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <span></span>
-                                        <span>Homepage : <a href="https://www.eislekerhaus.lu" target="_blank" rel="noopener noreferrer" className="text-jul-green hover:underline">www.eislekerhaus.lu</a></span>
+                                        <Instagram className="text-jul-green w-5 h-5" />
+                                        <span>
+                                            Instagram : <a href="https://www.instagram.com/eislekerhaus?igsh=b20yNjZxZTZpeXBu" target="_blank" rel="noopener noreferrer" className="text-jul-green hover:underline">Eislekerhaus</a>
+                                        </span>
                                     </div>
                                 </div>
                             </div>

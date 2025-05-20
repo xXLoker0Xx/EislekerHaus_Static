@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
                 </div>
                 <div className="page-fade-in flex flex-row w-full justify-center">
                     <Image
-                        src="/Cabane 1.jpg"
+                        src="/Cabane_5.jpg"
                         alt="house"
                         width={500}
                         height={500}
