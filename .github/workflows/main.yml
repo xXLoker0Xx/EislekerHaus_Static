@@ -47,9 +47,5 @@ jobs:
 
           # pm2 start npm --name eislekerhaus -- run start
           # Restart the app with pm2 using the production start script
-          if pm2 list | grep -q eislekerhaus; then
-            pm2 restart eislekerhaus --force
-          else
-            pm2 start npm --name eislekerhaus -- run start
-          fi
+          pm2 restart eislekerhaus --force
           pm2 save --force
