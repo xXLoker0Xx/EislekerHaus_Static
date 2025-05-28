@@ -27,9 +27,13 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <p>
-                    <a href="/Datenschutz" className="hover:underline">
-                        Impressum / AGB / Datenschutz
-                    </a>
+                    <div className="space-x-2">
+                        <a href="/Impressum" className="hover:underline">Impressum </a> 
+                        /
+                        <a href="/AGB" className="hover:underline">AGB </a> 
+                        /
+                        <a href="/Datenschutz" className="hover:underline">Datenschutz</a>
+                    </div>
                 </p>
                 <p className="mt-3">© 2025 Eisleker Haus. All rights reserved.</p>
             </div>
